@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 新闻每日速递</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 30px;
+        }
+        .news-item {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #00d4ff;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .news-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 20px rgba(0,212,255,0.2);
+        }
+        .news-item h3 {
+            color: #fff;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        .news-item p {
+            color: #aaa;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .news-item a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
+        .news-item a:hover { text-decoration: underline; }
+        .stars { color: #ffd700; margin-bottom: 5px; }
+        .meta {
+            text-align: center;
+            color: #666;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+        }
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        .empty .icon { font-size: 4em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI 新闻每日速递</h1>
+        <p class="subtitle" id="date">加载中...</p>
+        <div id="news-list">
+            <div class="empty">
+                <div class="icon">📰</div>
+                <p>今日新闻即将送达...</p>
+                <p style="margin-top:10px; font-size:0.9em;">每天 10:00 自动更新</p>
+            </div>
+        </div>
+        <div class="meta" id="meta"></div>
+    </div>
+    <script>
+        // 加载最新新闻
+        async function loadNews() {
+            try {
+                const today = new Date().toISOString().split('T')[0];
+                const response = await fetch(`news/${today}.json`);
+                if (response.ok) {
+                    const data = await response.json();
+                    renderNews(data);
+                }
+            } catch (e) {
+                console.log('今日新闻尚未生成');
+            }
+        }
+        
+        function renderNews(data) {
+            document.getElementById('date').textContent = data.date;
+            const container = document.getElementById('news-list');
+            container.innerHTML = '';
+            
+            data.news.forEach((item, i) => {
+                const div = document.createElement('div');
+                div.className = 'news-item';
+                div.innerHTML = `
+                    <div class="stars">${'⭐'.repeat(item.stars)}</div>
+                    <h3>${item.title}</h3>
+                    <p>${item.summary}</p>
+                    <a href="${item.url}" target="_blank">🔗 ${item.source}</a>
+                `;
+                container.appendChild(div);
+            });
+            
+            document.getElementById('meta').innerHTML = `
+                📊 本次共收集 ${data.news.length} 条新闻 | 
+                搜索 ${data.searchCount} 次 | 
+                更新时间：${data.updateTime}
+            `;
+        }
+        
+        loadNews();
+    </script>
+</body>
+</html>
