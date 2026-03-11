@@ -1,0 +1,77 @@
+{
+  "date": "2026年3月12日",
+  "updateTime": "2026-03-12 07:10 CST",
+  "searchCount": 25,
+  "news": [
+    {
+      "title": "LLM 诚实性研究：推理能力提升真实性",
+      "summary": "论文《Think Before You Lie》探讨 LLM 推理能力如何影响诚实性，发现"思考后再回答"可显著提升真实性。",
+      "source": "arXiv:2603.09957",
+      "url": "https://arxiv.org/abs/2603.09957",
+      "stars": 5
+    },
+    {
+      "title": "模型合并技术综述：LLM 时代的新范式",
+      "summary": "系统梳理模型合并技术：能力增强、对齐驱动、效率驱动，涵盖 TIES-Merging、DARE、Model Stock 等关键技术。",
+      "source": "arXiv:2603.09938",
+      "url": "https://arxiv.org/abs/2603.09938",
+      "stars": 5
+    },
+    {
+      "title": "AutoAgent：自适应智能体框架",
+      "summary": "提出自进化多智能体框架，包含进化认知、弹性记忆编排、闭环认知进化三大创新。",
+      "source": "arXiv:2603.09716",
+      "url": "https://arxiv.org/abs/2603.09716",
+      "stars": 5
+    },
+    {
+      "title": "EsoLang-Bench：评估 LLM 真实推理能力",
+      "summary": "使用冷门编程语言评估真实推理，发现标准基准 85-95% 的模型在冷门任务上仅得 0-11%。",
+      "source": "arXiv:2603.09678",
+      "url": "https://arxiv.org/abs/2603.09678",
+      "stars": 5
+    },
+    {
+      "title": "特征几何与叠加态：相关性如何塑造表示",
+      "summary": "提出 BOWS 框架，发现特征相关时干扰可以是建设性的，自然形成语义聚类和循环结构。",
+      "source": "arXiv:2603.09972",
+      "url": "https://arxiv.org/abs/2603.09972",
+      "stars": 4
+    },
+    {
+      "title": "神经优化器的宽度缩放理论",
+      "summary": "从矩阵算子范数角度统一理解优化器：SignSGD/AdamW 对应 ℓ₁→ℓ∞，Muon 对应谱范数。",
+      "source": "arXiv:2603.09952",
+      "url": "https://arxiv.org/abs/2603.09952",
+      "stars": 4
+    },
+    {
+      "title": "医疗多智能体系统基准测试框架",
+      "summary": "MedMASLab：首个医疗视觉-语言多智能体系统统一编排框架，在 11 个医疗基准上评估。",
+      "source": "arXiv:2603.09909",
+      "url": "https://arxiv.org/abs/2603.09909",
+      "stars": 4
+    },
+    {
+      "title": "LLM 多智能体对话策略控制",
+      "summary": "将提示视为动作构建轻量级策略，通过参数化控制影响对话动态（AAMAS 2026）。",
+      "source": "arXiv:2603.09890",
+      "url": "https://arxiv.org/abs/2603.09890",
+      "stars": 4
+    },
+    {
+      "title": "Mistral AI 发布 Voxtral 音频转录模型",
+      "summary": "实时音频转录，精确说话人分离，全新音频 Playground。",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/",
+      "stars": 4
+    },
+    {
+      "title": "Anthropic Project Vend：AI 经营实体小店",
+      "summary": "在旧金山办公室开设 AI 经营的小店，探索 AI 在复杂现实任务中的能力。",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research",
+      "stars": 3
+    }
+  ]
+}
