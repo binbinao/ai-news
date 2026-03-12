@@ -1,77 +1,133 @@
 {
-  "date": "2026年3月12日",
-  "updateTime": "2026-03-12 07:10 CST",
-  "searchCount": 25,
+  "date": "2026-03-12",
   "news": [
     {
-      "title": "LLM 诚实性研究：推理能力提升真实性",
-      "summary": "论文《Think Before You Lie》探讨 LLM 推理能力如何影响诚实性，发现"思考后再回答"可显著提升真实性。",
-      "source": "arXiv:2603.09957",
-      "url": "https://arxiv.org/abs/2603.09957",
-      "stars": 5
-    },
-    {
-      "title": "模型合并技术综述：LLM 时代的新范式",
-      "summary": "系统梳理模型合并技术：能力增强、对齐驱动、效率驱动，涵盖 TIES-Merging、DARE、Model Stock 等关键技术。",
-      "source": "arXiv:2603.09938",
-      "url": "https://arxiv.org/abs/2603.09938",
-      "stars": 5
-    },
-    {
-      "title": "AutoAgent：自适应智能体框架",
-      "summary": "提出自进化多智能体框架，包含进化认知、弹性记忆编排、闭环认知进化三大创新。",
-      "source": "arXiv:2603.09716",
-      "url": "https://arxiv.org/abs/2603.09716",
-      "stars": 5
-    },
-    {
-      "title": "EsoLang-Bench：评估 LLM 真实推理能力",
-      "summary": "使用冷门编程语言评估真实推理，发现标准基准 85-95% 的模型在冷门任务上仅得 0-11%。",
-      "source": "arXiv:2603.09678",
-      "url": "https://arxiv.org/abs/2603.09678",
-      "stars": 5
-    },
-    {
-      "title": "特征几何与叠加态：相关性如何塑造表示",
-      "summary": "提出 BOWS 框架，发现特征相关时干扰可以是建设性的，自然形成语义聚类和循环结构。",
-      "source": "arXiv:2603.09972",
-      "url": "https://arxiv.org/abs/2603.09972",
-      "stars": 4
-    },
-    {
-      "title": "神经优化器的宽度缩放理论",
-      "summary": "从矩阵算子范数角度统一理解优化器：SignSGD/AdamW 对应 ℓ₁→ℓ∞，Muon 对应谱范数。",
-      "source": "arXiv:2603.09952",
-      "url": "https://arxiv.org/abs/2603.09952",
-      "stars": 4
-    },
-    {
-      "title": "医疗多智能体系统基准测试框架",
-      "summary": "MedMASLab：首个医疗视觉-语言多智能体系统统一编排框架，在 11 个医疗基准上评估。",
-      "source": "arXiv:2603.09909",
-      "url": "https://arxiv.org/abs/2603.09909",
-      "stars": 4
-    },
-    {
-      "title": "LLM 多智能体对话策略控制",
-      "summary": "将提示视为动作构建轻量级策略，通过参数化控制影响对话动态（AAMAS 2026）。",
-      "source": "arXiv:2603.09890",
-      "url": "https://arxiv.org/abs/2603.09890",
-      "stars": 4
-    },
-    {
-      "title": "Mistral AI 发布 Voxtral 音频转录模型",
-      "summary": "实时音频转录，精确说话人分离，全新音频 Playground。",
+      "title": "Mistral 发布 Voxtral 语音理解模型，开源 Apache 2.0 协议",
+      "summary": "Mistral 发布 Voxtral 语音理解模型，包含 24B 和 3B 两个版本，支持 30 分钟长音频转录、多语言理解、语音问答和函数调用，性能超越 OpenAI Whisper，价格仅为一半。",
+      "url": "https://mistral.ai/news/voxtral",
       "source": "Mistral AI",
-      "url": "https://mistral.ai/news/",
+      "stars": 5
+    },
+    {
+      "title": "黄仁勋：AI 正成为现代世界基础设施，能源是最底层约束",
+      "summary": "英伟达 CEO 黄仁勋发布长文，阐述 AI 产业的五层架构（能源→芯片→基础设施→模型→应用），指出 AI 已跨越规模化应用临界点，将带来人类史上最大规模基础设施建设。",
+      "url": "https://www.guancha.cn/JensenHuang/2026_03_11_809631.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "OpenClaw 引发中国 AI Agent 热潮：全民养龙虾现象解析",
+      "summary": "OpenClaw 在中国掀起热潮，GitHub 星标三周破 25 万。腾讯线下摆摊帮用户部署，阿里推一键上云，小米将 Agent 塞进手机汽车电视。国产模型 API 价格仅为海外 1/6，Token 出海占比从 2% 飙升至 39%。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_10_809430.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "杰森·福尔曼：AI 领域竞争激烈，我曾以为是寡头游戏大错特错",
+      "summary": "前奥巴马经济顾问撰文指出，AI 前沿领域已演变成激烈竞争战场。Anthropic、OpenAI、谷歌轮换榜首，中国 DeepSeek 和法国 Mistral 表现强劲。Token 价格从 2022 年每百万 20 美元降至 0.4 美元，年均降幅 70%。",
+      "url": "https://www.guancha.cn/JasonFurman/2026_03_09_809342.shtml",
+      "source": "观察者网/纽约时报",
+      "stars": 5
+    },
+    {
+      "title": "美国自动驾驶立法借中国威胁推进，专家警告充满陷阱",
+      "summary": "美国国会重启自动驾驶立法，各方以中国竞争为由推动法案。专家指出，这种出于政治操弄的仓促立法对美国自身也充满陷阱，可能重蹈半导体产业外流覆辙。",
+      "url": "https://www.guancha.cn/Sukui/2026_03_09_809344.shtml",
+      "source": "观察者网",
       "stars": 4
     },
     {
-      "title": "Anthropic Project Vend：AI 经营实体小店",
-      "summary": "在旧金山办公室开设 AI 经营的小店，探索 AI 在复杂现实任务中的能力。",
-      "source": "Anthropic",
+      "title": "预测市场 Polymarket 被武器化，成为认知战新工具",
+      "summary": "Polymarket 估值达 90 亿美元，2025 年交易额超 250 亿。但专家警告，其去中心化预言机机制存在结构性漏洞，资本可操纵事实裁定，正被武器化为认知战工具。",
+      "url": "https://www.guancha.cn/wenshaoqing/2026_03_10_809427.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "CNCF Dragonfly 毕业，成为云原生镜像分发最高成熟度项目",
+      "summary": "云原生计算基金会宣布 Dragonfly 达到毕业状态，这是 CNCF 项目生命周期最高成熟度级别。Dragonfly 在容器和 AI 工作负载分发方面发挥关键作用。",
+      "url": "https://www.infoq.cn",
+      "source": "InfoQ",
+      "stars": 4
+    },
+    {
+      "title": "国家级并购基金设立，打通创投退出渠道",
+      "summary": "发改委宣布设立国家级并购基金，解决超 10 万亿私募股权基金退出困局。基金将引导社会资本投向战略性新兴产业，打破区域壁垒，推动产业整合。",
+      "url": "https://www.guancha.cn/Guanxin/2026_03_06_809067.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "刘世锦：十五五期间中国将跨越高收入国家门槛",
+      "summary": "国务院发展研究中心原副主任刘世锦指出，中国正处在结构转型窗口期，需从投资驱动转向消费引领，解决消费占 GDP 比重较国际平均低 20 个百分点的结构性偏差。",
+      "url": "https://www.guancha.cn/liushijin/2026_03_07_809111.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "构建造福普通人的科技消费新生态",
+      "summary": "商务部指出科技消费已成为中国消费亮点，但存在娱乐与民生领域发展不对称、科技大厂与消费者信息不对称等问题，需从追逐技术奇观转向深耕人间烟火。",
+      "url": "https://www.guancha.cn/Guanxin/2026_03_06_809056.shtml",
+      "source": "观察者网",
+      "stars": 3
+    },
+    {
+      "title": "张军：4.5%-5%增长目标无需过度解读，关键要解决物价问题",
+      "summary": "复旦大学经济学院院长张军解读政府工作报告，指出名义增长与实际增长倒挂反映通缩苗头，需防止经济走向通缩，政府可通过扩大消费支出稳定宏观经济。",
+      "url": "https://www.guancha.cn/ZhangJun/2026_03_06_809044.shtml",
+      "source": "观察者网",
+      "stars": 3
+    },
+    {
+      "title": "Anthropic Project Vend：AI 开店实验探索 Agent 实际能力",
+      "summary": "Anthropic 在旧金山办公室开设由 AI 经营的小店，探索 AI 在复杂现实任务中的表现。这是 Project Vend 项目的一部分，测试 Claude 的商业运营能力。",
       "url": "https://www.anthropic.com/research",
+      "source": "Anthropic",
+      "stars": 3
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院发文探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "伊朗航母被美军击沉：悲剧与悲壮的交织",
+      "summary": "伊朗由商船改装的无人机航母烈士巴盖里号被美军击沉。这艘舰艇象征伊朗海军探索不对称作战模式的努力，但也暴露其整体能力局限。",
+      "url": "https://www.guancha.cn/baiyujing/2026_03_07_809125.shtml",
+      "source": "观察者网",
+      "stars": 3
+    },
+    {
+      "title": "霍尔木兹海峡关闭对中国能源影响分析",
+      "summary": "伊朗关闭霍尔木兹海峡，影响全球 1600-2000 万桶/日原油运输。中国约 500-600 万桶/日原油需经此海峡，可通过释放战略库存、增加陆路管道进口应对。",
+      "url": "https://www.guancha.cn/QuXinRong/2026_03_07_809136.shtml",
+      "source": "观察者网",
+      "stars": 3
+    },
+    {
+      "title": "《太平年》编剧董哲谈历史剧创作：让历史人物好好上班",
+      "summary": "重大历史题材剧《太平年》收视达 11.4 亿人次，豆瓣评分 8.2。编剧董哲表示，历史剧不能只歌颂帝王将相，要让人物有实际工作，展现推动历史的具体努力。",
+      "url": "https://www.guancha.cn/dongzhe/2026_03_11_809628.shtml",
+      "source": "观察者网",
+      "stars": 3
+    },
+    {
+      "title": "界面新闻：飞书 CEO 谢欣谈 Agent 安全问题",
+      "summary": "飞书 CEO 谢欣表示，未解决安全问题的 Agent 越强大越危险。同时英伟达将向 Nebius 投资 20 亿美元，腾讯云涨价。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 3
+    },
+    {
+      "title": "量子位：向 Claude 脱帽致敬",
+      "summary": "量子位报道 Claude 相关动态，标题为向 Claude 脱帽致敬，暗示 Claude 在某些方面取得重要突破或表现优异。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
       "stars": 3
     }
-  ]
+  ],
+  "searchCount": 8,
+  "updateTime": "2026-03-12T10:15:00+08:00"
 }
