@@ -1,0 +1,112 @@
+{
+  "date": "2026-03-13",
+  "news": [
+    {
+      "title": "arXiv 今日发布 193 篇 AI 论文，研究热度持续高涨",
+      "summary": "arXiv 人工智能分类今日新增 193 篇论文，涵盖机器学习、计算机视觉、自然语言处理等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "姜奇平：数据要素×是制造业新质生产力的核心",
+      "summary": "中国社会科学院信息化研究中心原主任姜奇平指出，数据要素与产业结合是创造高附加值的核心。人形机器人重新定义了什么是机器，将成为推动工业向智业转型的关键要素。建议给机器人办身份证，构建数据血缘体系。",
+      "url": "https://www.guancha.cn/jiangqiping/2026_03_11_809622.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "安妮·纽贝格：未来战争是一场关于算法的较量",
+      "summary": "美国前国安顾问安妮·纽贝格撰文指出，战争已演变为算法较量，软件迭代速度决定战术优势。商业技术使精确打击能力普及化，300万美元的爱国者导弹击落200美元无人机的成本失衡催生蜂群战术。安全不再取决于装甲厚度，更取决于网络速度和供应链韧性。",
+      "url": "https://www.guancha.cn/AnneNeuberger/2026_03_12_809765.shtml",
+      "source": "观察者网/外交政策",
+      "stars": 5
+    },
+    {
+      "title": "李晓静：西方一刀切禁未成年用社媒，中国为何不能跟",
+      "summary": "教育部青年长江学者李晓静指出，中国网民基数全球第一，社交媒体已深度嵌入青少年生活。一刀切禁令不仅难以落地，还会把未成年人推向更危险的边缘平台。中国应走出自己的青少年网络保护道路，当务之急是提升数字素养而非筑墙隔离。",
+      "url": "https://www.guancha.cn/lixiaojing/2026_03_13_809867.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "美国启动301调查审查制造业产能过剩，中国为核心目标",
+      "summary": "美国贸易代表办公室启动301调查，审查16个经济体的制造业产能过剩问题。中国被视为最核心案例，涉及电子设备、机械、汽车、钢铁、化工、光伏等多个行业。公众意见提交窗口将于3月17日开放，5月5日举行听证会。",
+      "url": "https://www.guancha.cn/nanjituzhu/2026_03_13_809866.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "郑载兴：美国在伊朗打成这副样子，让韩国人很不安",
+      "summary": "韩国世宗研究所中国研究中心主任郑载兴指出，美国将驻韩美军萨德系统调往中东，暴露了美国全球战略部署捉襟见肘。韩国精英阶层难以接受美国不再是世界最强这一现实，这是半岛持续对抗的深层原因之一。",
+      "url": "https://www.guancha.cn/ZhengZaixing/2026_03_13_809873.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "罗思义：250年历史数据说明高水平投资是中国经济优势",
+      "summary": "前伦敦经济与商业政策署署长罗思义分析指出，自工业革命以来250年间，领先经济体的投资占GDP比重持续上升，经济增长率也随之提高。中国当前投资占比约40%，年均增长率8.9%，是这一历史进程的最新体现，而非异常现象。",
+      "url": "https://www.guancha.cn/LuoSiYi/2026_03_13_809877.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "高志凯、介文汲：伊朗战事最大输家是大陆？熟悉的味道又来了",
+      "summary": "两岸专家讨论伊朗战事走向。介文汲指出特朗普的谈判型施政风格，高志凯强调这是一场由美以发起的侵略战争，美国国际信誉受损严重。未来一周是关键，战场上的实际结果将决定局势走向。",
+      "url": "https://www.guancha.cn/gaozhikai/2026_03_13_809865.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "心智观察所：特朗普为中国保护霍尔木兹海峡？纵火者伪装成消防员",
+      "summary": "分析指出，特朗普将保持海峡畅通定义为送给中国的礼物，实则是将美国军事行动触发的能源危机转化为保护全球利益的叙事。中国通过海峡的原油占37.7%，而美国仅占2%。这种不费成本的善意包装，暗含谈判桌上的筹码加码逻辑。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_13_809870.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "Mistral Voxtral 语音模型持续受关注",
+      "summary": "Mistral 发布的 Voxtral 语音理解模型持续受到业界关注，支持实时转录、多语言理解、语音问答等功能，性能超越 OpenAI Whisper。",
+      "url": "https://mistral.ai/news",
+      "source": "Mistral AI",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "Anthropic Project Vend：AI 开店实验探索 Agent 实际能力",
+      "summary": "Anthropic 在旧金山办公室开设由 AI 经营的小店，探索 AI 在复杂现实任务中的表现。这是 Project Vend 项目的一部分，测试 Claude 的商业运营能力。",
+      "url": "https://www.anthropic.com/research",
+      "source": "Anthropic",
+      "stars": 3
+    },
+    {
+      "title": "Hugging Face 发布 MoE 优化与 Transformer 相关研究",
+      "summary": "Hugging Face 博客发布关于混合专家模型优化和 Transformer 架构的最新研究内容。",
+      "url": "https://huggingface.co/blog",
+      "source": "Hugging Face",
+      "stars": 3
+    },
+    {
+      "title": "谷歌发布首个原生多模态嵌入模型",
+      "summary": "量子位报道谷歌发布首个原生多模态嵌入模型，在多模态理解领域取得新突破。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "科创板未盈利企业摘U比例近五成",
+      "summary": "自开板以来，科创板共有61家企业上市时未盈利，预计2025年年报披露后摘U企业数量将达到28家，比例近五成，显示科技创新企业盈利能力逐步提升。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 3
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-03-13T10:05:00+08:00"
+}
