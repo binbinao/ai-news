@@ -1,0 +1,112 @@
+{
+  "date": "2026-03-14",
+  "news": [
+    {
+      "title": "沈逸：美伊战争正朝失控方向发展，美国军事实力极限暴露",
+      "summary": "复旦大学教授沈逸指出，美以对伊朗的军事行动正朝失控方向发展。伊朗展现出超预期的韧性和组织能力，美国福特号航母出现设备故障和士气问题。这场冲突可能成为见证美国军事体系极限边界的标志性事件。",
+      "url": "https://www.guancha.cn/ShenYi/2026_03_14_810003.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "张维为：外媒问我中国是否给伊朗高超音速导弹，我回了四个字",
+      "summary": "复旦大学中国研究院院长张维为接受今日俄罗斯专访，指出美国对伊朗的攻击是明显的战略欺骗。中国将继续执行中伊25年全面合作计划，强调中国人一诺千金。美国若依靠战略欺骗行事，将无人相信其承诺。",
+      "url": "https://www.guancha.cn/ZhangWeiWei/2026_03_14_810005.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "关心：坚决把苹果税打下来，中国区税率仍有下调空间",
+      "summary": "苹果宣布下调中国区APP佣金率，标准佣金从30%降至25%，中小开发者从15%降至12%。但中国区苹果税率仍高于欧盟和日韩，APP Store软件墙尚未打破。反垄断监管需持续施压。",
+      "url": "https://www.guancha.cn/Guanxin/2026_03_13_809941.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "江宇舟：美日涉疆制裁已经半衰，正是反制裁斗争宝贵时机",
+      "summary": "涉疆制裁在执行层面正在半衰，成为美国制裁链条中最薄弱的一环。美国以强迫劳动为由对新疆实施制裁，但证据漏洞百出，执行后劲乏力。中国应抓住时机发起反击，反制裁斗争可能迎来历史转折。",
+      "url": "https://www.guancha.cn/jiangyuzhou/2026_03_13_809902.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "闻博：能拦截油轮的除了伊朗，还有一个资本财团",
+      "summary": "霍尔木兹海峡已被事实封锁12天。特朗普没料到，海上保险市场的商业逻辑成为封锁的关键推手。再保险公司踩下刹车，直保公司无法转嫁风险，导致海量船舶不敢驶入海峡。保险规则主导的无形封锁，约束力远胜常规军事威慑。",
+      "url": "https://www.guancha.cn/Wenbo/2026_03_13_809896.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "兔主席：美国的盟友活在以色列优先的世界里",
+      "summary": "美国弹药库吃紧，全球军事资源捉襟见肘。中央司令部与印太司令部展开激烈资源争夺，韩国、日本、欧洲盟友担忧自身防御能力受损。美国为支持伊朗战事，实际上牺牲了乌克兰和欧洲利益。一切都在服务以色列。",
+      "url": "https://www.guancha.cn/TuZhuXi/2026_03_12_809725.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：全民养虾，为什么是中国",
+      "summary": "OpenClaw在中国掀起热潮，GitHub星标三周破25万。国产模型API价格仅为海外1/6，Token出海占比从2%飙升至39%。巨头们力推本地Agent，核心是争夺下一代大模型进化所需的任务轨迹数据。AI商业变现从人机对话转向机器自主执行。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_10_809430.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "arXiv 今日发布 193 篇 AI 论文，研究热度持续",
+      "summary": "arXiv 人工智能分类今日新增 193 篇论文，涵盖机器学习、计算机视觉、自然语言处理等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "Mistral Voxtral 语音模型持续受关注",
+      "summary": "Mistral 发布的 Voxtral 语音理解模型持续受到业界关注，支持实时转录、多语言理解、语音问答等功能，性能超越 OpenAI Whisper。",
+      "url": "https://mistral.ai/news",
+      "source": "Mistral AI",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "Anthropic Project Vend：AI 开店实验探索 Agent 实际能力",
+      "summary": "Anthropic 在旧金山办公室开设由 AI 经营的小店，探索 AI 在复杂现实任务中的表现。这是 Project Vend 项目的一部分，测试 Claude 的商业运营能力。",
+      "url": "https://www.anthropic.com/research",
+      "source": "Anthropic",
+      "stars": 3
+    },
+    {
+      "title": "Hugging Face 发布 MoE 优化与 Transformer 相关研究",
+      "summary": "Hugging Face 博客发布关于混合专家模型优化和 Transformer 架构的最新研究内容。",
+      "url": "https://huggingface.co/blog",
+      "source": "Hugging Face",
+      "stars": 3
+    },
+    {
+      "title": "量子位：百亿募资+五亿融资，魔法原子成为具身智能落地样本",
+      "summary": "量子位报道魔法原子获得百亿募资和五亿融资，成为具身智能落地样本，显示具身智能领域投资热度持续。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "界面新闻：魅族回应超半数员工将离开，微信上新三大功能",
+      "summary": "魅族回应超半数员工将离开；滴滴辟谣8年超龄车延期3年营运政策；微信上新三大功能；掌舵Adobe 18年的CEO突传离任；智元机器人、喜临门等入股今日宜休。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 3
+    },
+    {
+      "title": "安妮·纽贝格：未来战争是算法较量",
+      "summary": "美国前国安顾问安妮·纽贝格指出，战争已演变为算法较量，软件迭代速度决定战术优势。安全不再取决于装甲厚度，更取决于网络速度和供应链韧性。",
+      "url": "https://www.guancha.cn/AnneNeuberger/2026_03_12_809765.shtml",
+      "source": "观察者网/外交政策",
+      "stars": 5
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-03-14T10:05:00+08:00"
+}
