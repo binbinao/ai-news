@@ -1,0 +1,112 @@
+{
+  "date": "2026-03-15",
+  "news": [
+    {
+      "title": "黄仁勋：AI正成为现代世界基础设施，能源是最底层约束",
+      "summary": "英伟达CEO黄仁勋发布长文，指出AI正成为如同电力与互联网一般的关键基础设施。他将AI产业解构为五层架构：能源→芯片→基础设施→模型→应用。能源是AI基础设施的第一性原理，也是系统能产出多少智能的绝对约束条件。DeepSeek-R1等开源模型正在加速应用层普及。",
+      "url": "https://www.guancha.cn/JensenHuang/2026_03_11_809631.shtml",
+      "source": "观察者网/英伟达",
+      "stars": 5
+    },
+    {
+      "title": "伊朗驻华大使：我们再也不会信任美国",
+      "summary": "伊朗驻华大使法兹里接受独家专访，回顾美伊冲突历史，指出美国多次在国际谈判中失信。伊朗不会再寻求与美国对话，将依据国际法进行自卫。感谢中国在此次事件中的立场与支持。",
+      "url": "https://www.guancha.cn/Fazli/2026_03_15_810093.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "张维为：低空经济是未来可期的万亿新赛道",
+      "summary": "低空经济连续第三年被写入政府工作报告，定位从新兴产业升级为新兴支柱产业。中国无人机保有量位居世界第一，注册数已超过270万架。到2035年，中国低空经济总量有望达到4万亿人民币以上。",
+      "url": "https://www.guancha.cn/ZhangWeiWei/2026_03_15_810094.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "刘燕婷：战争进入新阶段，美国求胜、以色列求乱、伊朗求生",
+      "summary": "分析指出，美国希望尽快结束危机却无法灰头土脸退场，以色列企图改写中东格局，伊朗在革命卫队主导下拥立新领袖。各方都将筹码打到最大，停火环境暂难成形。",
+      "url": "https://www.guancha.cn/LiuYanTing/2026_03_15_810096.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "沈逸：美伊战争正朝失控方向发展，美国军事实力极限暴露",
+      "summary": "复旦大学教授沈逸指出，美以对伊朗的军事行动正朝失控方向发展。伊朗展现出超预期的韧性和组织能力，美国福特号航母出现设备故障和士气问题。这场冲突可能成为见证美国军事体系极限边界的标志性事件。",
+      "url": "https://www.guancha.cn/ShenYi/2026_03_14_810003.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "张维为：外媒问我中国是否给伊朗高超音速导弹，我回了四个字",
+      "summary": "复旦大学中国研究院院长张维为接受今日俄罗斯专访，指出美国对伊朗的攻击是明显的战略欺骗。中国将继续执行中伊25年全面合作计划，强调中国人一诺千金。",
+      "url": "https://www.guancha.cn/ZhangWeiWei/2026_03_14_810005.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：全民养虾，为什么是中国",
+      "summary": "OpenClaw在中国掀起热潮，GitHub星标三周破25万。国产模型API价格仅为海外1/6，Token出海占比从2%飙升至39%。巨头们力推本地Agent，核心是争夺下一代大模型进化所需的任务轨迹数据。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_10_809430.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "姜奇平：数据要素×是制造业新质生产力的核心",
+      "summary": "中国社会科学院信息化研究中心原主任姜奇平指出，数据要素与产业结合是创造高附加值的核心。人形机器人重新定义了什么是机器，将成为推动工业向智业转型的关键要素。",
+      "url": "https://www.guancha.cn/jiangqiping/2026_03_11_809622.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "安妮·纽贝格：未来战争是算法较量",
+      "summary": "美国前国安顾问安妮·纽贝格指出，战争已演变为算法较量，软件迭代速度决定战术优势。安全不再取决于装甲厚度，更取决于网络速度和供应链韧性。",
+      "url": "https://www.guancha.cn/AnneNeuberger/2026_03_12_809765.shtml",
+      "source": "观察者网/外交政策",
+      "stars": 5
+    },
+    {
+      "title": "arXiv 今日发布 193 篇 AI 论文，研究热度持续",
+      "summary": "arXiv 人工智能分类今日新增 193 篇论文，涵盖机器学习、计算机视觉、自然语言处理等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "Anthropic Project Vend：AI 开店实验探索 Agent 实际能力",
+      "summary": "Anthropic 在旧金山办公室开设由 AI 经营的小店，探索 AI 在复杂现实任务中的表现。这是 Project Vend 项目的一部分，测试 Claude 的商业运营能力。",
+      "url": "https://www.anthropic.com/research",
+      "source": "Anthropic",
+      "stars": 3
+    },
+    {
+      "title": "Hugging Face 发布 MoE 优化与 Transformer 相关研究",
+      "summary": "Hugging Face 博客发布关于混合专家模型优化和 Transformer 架构的最新研究内容。",
+      "url": "https://huggingface.co/blog",
+      "source": "Hugging Face",
+      "stars": 3
+    },
+    {
+      "title": "关心：坚决把苹果税打下来，中国区税率仍有下调空间",
+      "summary": "苹果宣布下调中国区APP佣金率，标准佣金从30%降至25%，中小开发者从15%降至12%。但中国区苹果税率仍高于欧盟和日韩，APP Store软件墙尚未打破。",
+      "url": "https://www.guancha.cn/Guanxin/2026_03_13_809941.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "界面新闻：追觅洗地机推出两款旗舰新品",
+      "summary": "3月13日，追觅洗地机正式推出两款旗舰新品——追梦家 T70 Ultra Station、探索家H70 Ultra Station，智能家居市场竞争加剧。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 3
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-03-15T10:05:00+08:00"
+}
