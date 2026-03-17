@@ -1,0 +1,112 @@
+{
+  "date": "2026-03-17",
+  "news": [
+    {
+      "title": "陈经：技术解释OpenClaw优点与缺陷的根源",
+      "summary": "OpenClaw于2月24日超过Linux、3月2日超过React，成为GitHub史上星标最多的软件项目。中国AI厂商正在争夺OpenClaw生态主导权，KimiClaw、MaxClaw、DuClaw等云服务纷纷推出。文章从技术原理角度解释了OpenClaw的架构与工作机制。",
+      "url": "https://www.guancha.cn/chenjing/2026_03_17_810319.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "鲍韶山：伊朗战争从闪电战到消耗战，暴露美国力量物理边界",
+      "summary": "独立模型显示，伊朗通过精心资源管理和分布式指挥结构，成功抵消了美以火力差距。伊朗生产和发射能力仍保持在战前水平的60%-70%。控制霍尔木兹海峡意味着掌握全球20%原油供应的杠杆，油价已飙升至每桶180-220美元。",
+      "url": "https://www.guancha.cn/WarwickPowell/2026_03_17_810314.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "黄仁勋：AI正成为现代世界基础设施，能源是最底层约束",
+      "summary": "英伟达CEO黄仁勋将AI产业解构为五层架构：能源→芯片→基础设施→模型→应用。能源是AI基础设施的第一性原理，也是系统能产出多少智能的绝对约束条件。DeepSeek-R1等开源模型正在加速应用层普及。",
+      "url": "https://www.guancha.cn/JensenHuang/2026_03_11_809631.shtml",
+      "source": "观察者网/英伟达",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：全民养虾，为什么是中国",
+      "summary": "OpenClaw在GitHub上星标三周破25万，超过Linux三十年积累。国产模型API价格仅为海外1/6，Token出海占比从2%飙升至39%。巨头力推本地Agent，核心是争夺下一代大模型进化所需的任务轨迹数据。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_10_809430.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "查理·坎贝尔：机器人士兵将参加美国的下一场战争",
+      "summary": "美国Foundation公司研发的人形机器人幻影MK-1获美军2400万美元合同，两台已送往乌克兰用于前线侦察。特朗普下令停止与Anthropic合作，AI武器化竞赛已开始。",
+      "url": "https://www.guancha.cn/CharlieCampbell/2026_03_16_810197.shtml",
+      "source": "观察者网/时代周刊",
+      "stars": 5
+    },
+    {
+      "title": "界面新闻：腾讯云智能体开发平台部分插件将不再免费",
+      "summary": "淘宝闪购第四季度份额冲至45.2%；拓竹科技与泡泡玛特达成和解并致歉；腾讯云智能体开发平台部分插件将不再免费提供；苹果推出Airpods MAX 2。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 4
+    },
+    {
+      "title": "量子位：累计贡献300亿高精图像数据集，已训练成机器人厘米级导航算法",
+      "summary": "量子位报道AI领域最新进展，累计贡献300亿高精图像数据集，已训练成机器人厘米级导航算法，显示AI在机器人导航领域的突破。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "张维为：低空经济是未来可期的万亿新赛道",
+      "summary": "低空经济连续第三年被写入政府工作报告，定位从新兴产业升级为新兴支柱产业。中国无人机保有量位居世界第一，注册数已超过270万架。到2035年，中国低空经济总量有望达到4万亿人民币以上。",
+      "url": "https://www.guancha.cn/ZhangWeiWei/2026_03_15_810094.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "姜奇平：数据要素×是制造业新质生产力的核心",
+      "summary": "中国社会科学院信息化研究中心原主任姜奇平指出，数据要素与产业结合是创造高附加值的核心。人形机器人重新定义了什么是机器，将成为推动工业向智业转型的关键要素。",
+      "url": "https://www.guancha.cn/jiangqiping/2026_03_11_809622.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "安妮·纽贝格：未来战争是算法较量",
+      "summary": "美国前国安顾问安妮·纽贝格指出，战争已演变为算法较量，软件迭代速度决定战术优势。安全不再取决于装甲厚度，更取决于网络速度和供应链韧性。",
+      "url": "https://www.guancha.cn/AnneNeuberger/2026_03_12_809765.shtml",
+      "source": "观察者网/外交政策",
+      "stars": 5
+    },
+    {
+      "title": "arXiv 今日发布 135 篇 AI 论文，研究热度持续",
+      "summary": "arXiv 人工智能分类今日新增 135 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。AI Agent 要真正有用，需要能够处理相互依赖的任务。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "Anthropic Project Vend：AI 开店实验探索 Agent 实际能力",
+      "summary": "Anthropic 在旧金山办公室开设由 AI 经营的小店，探索 AI 在复杂现实任务中的表现。这是 Project Vend 项目的一部分，测试 Claude 的商业运营能力。",
+      "url": "https://www.anthropic.com/research",
+      "source": "Anthropic",
+      "stars": 3
+    },
+    {
+      "title": "沈逸：美伊战争正朝失控方向发展，美国军事实力极限暴露",
+      "summary": "复旦大学教授沈逸指出，美以对伊朗的军事行动正朝失控方向发展。伊朗展现出超预期的韧性和组织能力，美国福特号航母出现设备故障和士气问题。",
+      "url": "https://www.guancha.cn/ShenYi/2026_03_14_810003.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "关心：坚决把苹果税打下来，中国区税率仍有下调空间",
+      "summary": "苹果宣布下调中国区APP佣金率，标准佣金从30%降至25%，中小开发者从15%降至12%。但中国区苹果税率仍高于欧盟和日韩，APP Store软件墙尚未打破。",
+      "url": "https://www.guancha.cn/Guanxin/2026_03_13_809941.shtml",
+      "source": "观察者网",
+      "stars": 5
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-03-17T10:05:00+08:00"
+}
