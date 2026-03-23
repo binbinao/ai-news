@@ -1,0 +1,112 @@
+{
+  "date": "2026-03-23",
+  "news": [
+    {
+      "title": "界面新闻：全球首个脑机接口创新产品获得医保编码",
+      "summary": "全球首个脑机接口创新产品获得医保编码；OpenClaw创始人回信确认360独家发现漏洞；国家级电力人工智能中试基地迎首批企业；3月电视和显示器面板价格上涨。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：本田的万亿跌落，只用了一个季度",
+      "summary": "本田汽车发布预警，2025财年将出现高达4200亿至6900亿日元净亏损，这是自1957年上市以来首次年度赤字。核心原因是电动化战略受阻，计提2.5万亿日元资产减值损失，取消三款北美纯电车型项目。日系车企在电动化转型中集体失速。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_21_810825.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：美国的阳谋——让英伟达充当AI基建的小发改委",
+      "summary": "英伟达GTC 2026展现野心：从GPU公司转型为AI基础设施总设计师。黄仁勋提出AI产业五层蛋糕架构（能源→芯片→基础设施→模型→应用），Vera Rubin系统集成七种芯片，Nemotron联盟绑定CUDA生态，OpenClaw智能体操作系统定义AI时代Windows。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_20_810701.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "黄仁勋GTC 2026：推理拐点已至，2027年AI芯片将带来万亿美元收入",
+      "summary": "NVIDIA GTC 2026开幕，黄仁勋发表近2.5小时主题演讲。结构化数据与生成式AI融合是构建可信AI的基础。代理式AI加速落地，物理AI打开机器人新空间。CUDA已进入所有主流云平台，装机基础驱动飞轮效应。",
+      "url": "https://www.guancha.cn/JensenHuang/2026_03_17_810402.shtml",
+      "source": "观察者网/英伟达",
+      "stars": 5
+    },
+    {
+      "title": "关心：龙虾入中国就变香，原因值得深挖",
+      "summary": "OpenClaw在欧美被视为数据污染源，在中国被集体拥抱。国产模型API价格仅为海外1/6，各地出台养虾十条扶持政策。AI从会聊到会干的进化方向不可逆，中国式创新将技术变成每个人都能享用的街头小吃。",
+      "url": "https://www.guancha.cn/Guanxin/2026_03_18_810501.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "查理·坎贝尔：机器人士兵将参加美国的下一场战争",
+      "summary": "美国Foundation公司研发的人形机器人幻影MK-1获美军2400万美元合同，两台已送往乌克兰用于前线侦察。特朗普下令停止与Anthropic合作，AI武器化竞赛已开始。人形机器士兵军备竞赛正在展开。",
+      "url": "https://www.guancha.cn/CharlieCampbell/2026_03_16_810197.shtml",
+      "source": "观察者网/时代周刊",
+      "stars": 5
+    },
+    {
+      "title": "陈经：技术解释OpenClaw优点与缺陷的根源",
+      "summary": "OpenClaw于2月24日超过Linux、3月2日超过React，成为GitHub史上星标最多的软件项目。中国AI厂商争夺生态主导权，KimiClaw、MaxClaw、DuClaw等云服务纷纷推出。文章从技术原理角度解释架构与工作机制。",
+      "url": "https://www.guancha.cn/chenjing/2026_03_17_810319.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "关心：国产存储到了必须突围的时候",
+      "summary": "2026年开年，DRAM和NAND Flash价格双双创下近十年新高，部分型号累计涨幅超过300%。AI算力基础设施爆发式增长让HBM成为抢手货。长江存储正在推进下一代闪存芯片研发，长鑫存储DDR5和LPDDR5X产品已亮相。",
+      "url": "https://www.guancha.cn/Guanxin/2026_03_17_810366.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "雁默：美国威慑力去马赛克化，震怖第一岛链",
+      "summary": "美以伊战争对第一岛链的影响是，美国威慑力高速下降，日韩菲与台湾地区同时在经济与安全层面受到双重冲击。伊朗的不对称作战重创美以，第一岛链被迫自我武装，砸钱扩军。",
+      "url": "https://www.guancha.cn/yanmo/2026_03_18_810446.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：全民养虾，为什么是中国",
+      "summary": "OpenClaw在GitHub上星标三周破25万，超过Linux三十年积累。国产模型API价格仅为海外1/6，Token出海占比从2%飙升至39%。巨头力推本地Agent，核心是争夺下一代大模型进化所需的任务轨迹数据。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_10_809430.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "张维为：低空经济是未来可期的万亿新赛道",
+      "summary": "低空经济连续第三年被写入政府工作报告，定位从新兴产业升级为新兴支柱产业。中国无人机保有量位居世界第一，注册数已超过270万架。到2035年，中国低空经济总量有望达到4万亿人民币以上。",
+      "url": "https://www.guancha.cn/ZhangWeiWei/2026_03_15_810094.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "姜奇平：数据要素×是制造业新质生产力的核心",
+      "summary": "中国社会科学院信息化研究中心原主任姜奇平指出，数据要素与产业结合是创造高附加值的核心。人形机器人重新定义了什么是机器，将成为推动工业向智业转型的关键要素。",
+      "url": "https://www.guancha.cn/jiangqiping/2026_03_11_809622.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "安妮·纽贝格：未来战争是算法较量",
+      "summary": "美国前国安顾问安妮·纽贝格指出，战争已演变为算法较量，软件迭代速度决定战术优势。安全不再取决于装甲厚度，更取决于网络速度和供应链韧性。",
+      "url": "https://www.guancha.cn/AnneNeuberger/2026_03_12_809765.shtml",
+      "source": "观察者网/外交政策",
+      "stars": 5
+    },
+    {
+      "title": "arXiv 今日发布 167 篇 AI 论文，研究热度持续",
+      "summary": "arXiv 人工智能分类今日新增 167 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。AI Agent 要真正有用，需要能够处理相互依赖的任务。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-03-23T10:05:00+08:00"
+}
