@@ -1,0 +1,105 @@
+{
+  "date": "2026-03-29",
+  "news": [
+    {
+      "title": "心智观察所：警惕中国台湾对大陆硬科技的系统性信息投毒",
+      "summary": "AI投毒产业链曝光：39.9元即可往大模型语料库灌假信息。台湾DIGITIMES、TrendForce等机构长期向全球互联网投放关于大陆芯片的未证实消息，影响AI模型输出和量化交易系统。这种系统性信息投放比商业投毒更危险。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_29_811768.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：OpenAI关停Sora，另一边是中国军团的崛起",
+      "summary": "OpenAI正式关停Sora视频生成应用，终止与迪士尼10亿美元合作。中国AI视频赛道狂飙：昆仑万维SkyReels V4文生视频全球第一，爱诗科技PixVerse V5.6图生视频全球第四。中国厂商凭借数据优势、工程师红利和商业模式创新完成弯道超车。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "博鳌论坛2026：具身机器人何时能迎来ChatGPT时刻？",
+      "summary": "北京人形机器人创新中心CEO熊友军、商汤联合创始人王晓刚等专家探讨具身智能发展。OpenClaw为人形机器人赋予自我进化能力，实现从单机具身智能到群体协同转变。数据采集从真机操控转向人体穿戴传感器捕捉人类行为。",
+      "url": "https://www.guancha.cn/xiongyoujun/2026_03_27_811581.shtml",
+      "source": "观察者网/博鳌论坛",
+      "stars": 5
+    },
+    {
+      "title": "白宫报告：人工智能与大分流",
+      "summary": "美国白宫经济顾问委员会发布报告，通过投资、性能、采用率三大维度论证美国AI领先地位。AI相关投资使GDP年化增长率提高1.3%。报告将中国定位为战略对手，为特朗普政府放松监管、能源扩张、技术出口管制提供依据。",
+      "url": "https://www.guancha.cn/CouncilofEconomicAdvisers/2026_03_27_811575.shtml",
+      "source": "观察者网/白宫",
+      "stars": 5
+    },
+    {
+      "title": "顾嘉时：完整权限交给AI，OpenClaw用户知道自己正在冒什么险吗？",
+      "summary": "OpenClaw GitHub星标已达32.8万，成为史上最高开源项目。国家互联网应急中心发布安全预警。高权限带来高效能，但也隐藏个人权限失控、产业合规风险以及数据主权隐忧。AI Agent方向正确，但守住安全底线是长期健康来健康发展的基础。",
+      "url": "https://www.guancha.cn/gujiashi/2026_03_27_811613.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "科工力量：Sora猝死，6个月从山顶到坟头",
+      "summary": "Sora关停原因：烧钱太快却看不到钱景。10秒视频算力是ChatGPT查询数千倍，可用率仅5%-10%。30天留存率仅1%，60天归零。OpenAI战略收缩，砍掉不赚钱业务，聚焦编程和企业用户。AI行业从烧钱扩张转向算力精算。",
+      "url": "https://www.guancha.cn/kegongliliang/2026_03_26_811436.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：中国SaaS等了十年的拐点，是在等一只小龙虾？",
+      "summary": "阿里云、百度云、腾讯云三大厂商集体涨价，最高涨幅34%。OpenClaw引发Token海啸，全球每周Token使用量冲到16万亿。MiniMax M2.5月用7.5万亿Token全球第一。MaaS成为云厂商新增长曲线，AI Agent可能帮中国绕过传统SaaS困境。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_25_811326.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "张维为：核能的发展需要政治上的远视和成熟",
+      "summary": "核能发展需要强大工业基础支撑，但更重要的是政治上的远视和成熟。很多国家政策会摇摆甚至后退，唯独中国决策比较靠谱。中国核能发展展现制度优势。",
+      "url": "https://www.guancha.cn/ZhangWeiWei/2026_03_29_811766.shtml",
+      "source": "观察者网",
+      "stars": 4
+    },
+    {
+      "title": "界面新闻：债务重组完成不等于真正上岸",
+      "summary": "债务重组完成不等于真正上岸，而是取决于未来企业销售去化、资产盘活、模式转型的成效。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 3
+    },
+    {
+      "title": "第一财经：贵金属的终极价值在于其作为非主权信用锚的功能",
+      "summary": "贵金属价格的剧烈波动是国际金融、地缘政治与国家战略博弈共同作用的结果。黄金作为超主权货币锚，定投成为对抗市场不确定性的理性选择。",
+      "url": "https://www.yicai.com",
+      "source": "第一财经",
+      "stars": 4
+    },
+    {
+      "title": "量子位：PixVerse V5.6全面支持多种视频创作模式",
+      "summary": "在百炼平台上，PixVerse V5.6全面支持文生视频、图文生视频、首尾帧生成及参考生成等多种创作模式，并率先推出按需、按时长计费的灵活模式。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "arXiv 本周发布 177 篇 AI 论文，研究热度持续",
+      "summary": "arXiv 人工智能分类本周新增 177 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。AI Agent 要真正有用，需要能够处理相互依赖的任务。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "Google DeepMind：与各国政府合作推进AI发展",
+      "summary": "Google DeepMind宣布与全球各国政府建立合作伙伴关系，通过前沿AI技术造福人类。推动AI在国家层面的应用与发展。",
+      "url": "https://deepmind.google.com/blog/",
+      "source": "Google DeepMind",
+      "stars": 4
+    }
+  ],
+  "searchCount": 11,
+  "updateTime": "2026-03-29T10:05:00+08:00"
+}
