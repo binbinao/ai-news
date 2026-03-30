@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-30",
+  "news": [
+    {
+      "title": "界面新闻：群核科技通过港交所上市聆讯，美光市值蒸发逾700亿美元",
+      "summary": "群核科技通过港交所上市聆讯；美光市值蒸发逾700亿美元；谷歌将为Anthropic的数据中心提供融资支持；苹果聘请谷歌前高管担任AI产品营销副总裁。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 5
+    },
+    {
+      "title": "量子位：从推理模型时代到智能体时代的思考转变",
+      "summary": "长文探讨从推理模型时代的思考到智能体时代的思考的转变。AI行业正在经历从单一模型能力到智能体系统化能力的范式转移。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "心智观察所：OpenAI关停Sora，另一边是中国军团的崛起",
+      "summary": "OpenAI正式关停Sora视频生成应用，终止与迪士尼10亿美元合作。中国AI视频赛道狂飙：昆仑万维SkyReels V4文生视频全球第一，爱诗科技PixVerse V5.6图生视频全球第四。中国厂商凭借数据优势、工程师红利和商业模式创新完成弯道超车。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "季莫费·博尔达切夫：全球对美国的期待泡沫已破裂",
+      "summary": "俄罗斯瓦尔代俱乐部专家指出，美国对伊朗的军事行动暴露了其同盟关系的脆弱性。核大国不需要盟友来维持生存，各国只对自身公民负责。欧亚核心区（中俄中亚）将保持稳定，一带一路基础设施是关键。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_26_811434.shtml",
+      "source": "观察者网/北京对话",
+      "stars": 5
+    },
+    {
+      "title": "arXiv 今日新增 117 篇 AI 论文，研究热度持续高涨",
+      "summary": "arXiv 人工智能分类今日新增 117 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学、软件工程等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。AI Agent 要真正有用，需要能够处理相互依赖的任务。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "第一财经：贵金属的终极价值在于其作为非主权信用锚的功能",
+      "summary": "贵金属价格的剧烈波动是国际金融、地缘政治与国家战略博弈共同作用的结果。黄金作为超主权货币锚，定投成为对抗市场不确定性的理性选择。",
+      "url": "https://www.yicai.com",
+      "source": "第一财经",
+      "stars": 4
+    },
+    {
+      "title": "黄仁勋：全球一半AI研究人员是中国人，类开源文化加速创新",
+      "summary": "英伟达CEO黄仁勋指出，全球大约一半的AI研究人员是中国人，大部分还在中国本土。中国人的类开源文化使知识传播速度非常快，这是中国AI领域能够在短短两三年内从追赶到领先的重要原因。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网/英伟达",
+      "stars": 5
+    },
+    {
+      "title": "中国AI视频模型登顶全球：昆仑万维SkyReels V4文生视频第一",
+      "summary": "全球AI基准测试平台Artificial Analysis榜单显示，昆仑万维SkyReels V4在文生视频+音频类别拿下全球第一，超越谷歌Veo 3.1和快手可灵3.0。快手可灵系列占据图生视频第二第三，爱诗科技PixVerse V5.6位列第四。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网/Artificial Analysis",
+      "stars": 5
+    },
+    {
+      "title": "Sora关停原因：烧钱太快却看不到钱景",
+      "summary": "Sora运营成本高昂，10秒视频算力是ChatGPT查询数千倍。30天留存率仅1%，60天归零。OpenAI战略收缩，砍掉不赚钱业务，聚焦编程和企业用户。AI行业从烧钱扩张转向算力精算。",
+      "url": "https://www.guancha.cn/kegongliliang/2026_03_26_811436.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "中国AI视频商业化路径：To C+To B双轮驱动",
+      "summary": "爱诗科技从成立之初选择先To C后To B、优先海外再拓国内路线，积累超1亿用户后向B端延伸。昆仑万维打造AI版Netflix短剧平台DramaWave，MAU突破8000万，年化流水ARR破4.8亿美元。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "谷歌为Anthropic数据中心提供融资支持",
+      "summary": "谷歌将为Anthropic的数据中心提供融资支持，显示科技巨头对AI基础设施的持续投入。Anthropic作为AI安全领域的重要玩家，获得更多算力资源支持。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 4
+    },
+    {
+      "title": "苹果聘请谷歌前高管担任AI产品营销副总裁",
+      "summary": "苹果聘请谷歌前高管担任AI产品营销副总裁，显示苹果正在加强AI领域的市场布局和产品推广能力。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 4
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-03-30T10:05:00+08:00"
+}
