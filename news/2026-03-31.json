@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-31",
+  "news": [
+    {
+      "title": "界面新闻：智元机器人预计2027年底交付第10万台机器人",
+      "summary": "东方甄选线下首店4月开业；爱奇艺拟赴港二次上市；特斯拉超级芯片工厂项目发布；智元机器人预计2027年底交付第10万台机器人；vivo发布X300 Ultra手机。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 5
+    },
+    {
+      "title": "量子位：Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6",
+      "summary": "某模型在基准测试中以Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6等顶级模型，显示中国AI模型在推理能力上的突破。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：警惕中国台湾对大陆硬科技的系统性信息投毒",
+      "summary": "AI投毒产业链曝光：39.9元即可往大模型语料库灌假信息。台湾DIGITIMES、TrendForce等机构长期向全球互联网投放关于大陆芯片的未证实消息，影响AI模型输出和量化交易系统。这种系统性信息投放比商业投毒更危险。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_29_811768.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：OpenAI关停Sora，另一边是中国军团的崛起",
+      "summary": "OpenAI正式关停Sora视频生成应用，终止与迪士尼10亿美元合作。中国AI视频赛道狂飙：昆仑万维SkyReels V4文生视频全球第一，爱诗科技PixVerse V5.6图生视频全球第四。中国厂商凭借数据优势、工程师红利和商业模式创新完成弯道超车。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "博鳌论坛2026：具身机器人何时能迎来ChatGPT时刻？",
+      "summary": "北京人形机器人创新中心CEO熊友军、商汤联合创始人王晓刚等专家探讨具身智能发展。OpenClaw为人形机器人赋予自我进化能力，实现从单机具身智能到群体协同转变。数据采集从真机操控转向人体穿戴传感器捕捉人类行为。",
+      "url": "https://www.guancha.cn/xiongyoujun/2026_03_27_811581.shtml",
+      "source": "观察者网/博鳌论坛",
+      "stars": 5
+    },
+    {
+      "title": "顾嘉时：完整权限交给AI，OpenClaw用户知道自己正在冒什么险吗？",
+      "summary": "OpenClaw GitHub星标已达32.8万，成为史上最高开源项目。国家互联网应急中心发布安全预警。高权限带来高效能，但也隐藏个人权限失控、产业合规风险以及数据主权隐忧。AI Agent方向正确，但守住安全底线是长期健康发展的基础。",
+      "url": "https://www.guancha.cn/gujiashi/2026_03_27_811613.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "科工力量：Sora猝死，6个月从山顶到坟头",
+      "summary": "Sora关停原因：烧钱太快却看不到钱景。10秒视频算力是ChatGPT查询数千倍，可用率仅5%-10%。30天留存率仅1%，60天归零。OpenAI战略收缩，砍掉不赚钱业务，聚焦编程和企业用户。AI行业从烧钱扩张转向算力精算。",
+      "url": "https://www.guancha.cn/kegongliliang/2026_03_26_811436.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "黄仁勋：全球一半AI研究人员是中国人，类开源文化加速创新",
+      "summary": "英伟达CEO黄仁勋指出，全球大约一半的AI研究人员是中国人，大部分还在中国本土。中国人的类开源文化使知识传播速度非常快，这是中国AI领域能够在短短两三年内从追赶到领先的重要原因。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网/英伟达",
+      "stars": 5
+    },
+    {
+      "title": "arXiv 周一新增 117 篇 AI 论文，研究热度持续高涨",
+      "summary": "arXiv 人工智能分类周一新增 117 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学、软件工程等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。AI Agent 要真正有用，需要能够处理相互依赖的任务。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "第一财经：贵金属的终极价值在于其作为非主权信用锚的功能",
+      "summary": "贵金属价格的剧烈波动是国际金融、地缘政治与国家战略博弈共同作用的结果。黄金作为超主权货币锚，定投成为对抗市场不确定性的理性选择。",
+      "url": "https://www.yicai.com",
+      "source": "第一财经",
+      "stars": 4
+    },
+    {
+      "title": "中国AI视频商业化路径：To C+To B双轮驱动",
+      "summary": "爱诗科技从成立之初选择先To C后To B、优先海外再拓国内路线，积累超1亿用户后向B端延伸。昆仑万维打造AI版Netflix短剧平台DramaWave，MAU突破8000万，年化流水ARR破4.8亿美元。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_27_811572.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "人形机器人产业趋势：从技术炫技走向实用化",
+      "summary": "人形机器人正从专用场景迈向通用领域，深度切入汽车、家电制造、搬运、分拣、物流等环节。工信部已牵头组建行业标准化委员会，推动产业链协同发展。",
+      "url": "https://www.guancha.cn/xiongyoujun/2026_03_27_811581.shtml",
+      "source": "观察者网/博鳌论坛",
+      "stars": 5
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-03-31T10:05:00+08:00"
+}
