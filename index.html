@@ -10,15 +10,15 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             min-height: 100vh;
-            color: #e0e0e0;
+            color: #fff;
             padding: 20px;
         }
-        .container { max-width: 900px; margin: 0 auto; }
+        .container { max-width: 800px; margin: 0 auto; }
         h1 {
             text-align: center;
-            font-size: 2.5em;
+            font-size: 2em;
             margin-bottom: 10px;
-            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -26,6 +26,7 @@
             text-align: center;
             color: #888;
             margin-bottom: 30px;
+            font-size: 1.1em;
         }
         .news-item {
             background: rgba(255,255,255,0.05);
@@ -68,12 +69,31 @@
             color: #666;
         }
         .empty .icon { font-size: 4em; margin-bottom: 20px; }
+        .error {
+            background: rgba(255,100,100,0.1);
+            border-left-color: #ff4444;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: #00d4ff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .nav a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>🤖 AI 新闻每日速递</h1>
         <p class="subtitle" id="date">加载中...</p>
+        <div class="nav">
+            <a href="#" onclick="loadPrevDay()">◀ 前一天</a>
+            <a href="#" onclick="loadToday()">今日新闻</a>
+            <a href="#" onclick="loadNextDay()">后一天 ▶</a>
+        </div>
         <div id="news-list">
             <div class="empty">
                 <div class="icon">📰</div>
@@ -84,30 +104,74 @@
         <div class="meta" id="meta"></div>
     </div>
     <script>
-        // 加载最新新闻
-        async function loadNews() {
+        let currentDate = null;
+        
+        // 获取本地日期 (CST UTC+8)
+        function getLocalDate() {
+            const now = new Date();
+            // CST = UTC+8
+            const cstOffset = 8 * 60; // minutes
+            const utcOffset = now.getTimezoneOffset();
+            const cstTime = new Date(now.getTime() + (utcOffset + cstOffset) * 60 * 1000);
+            return cstTime.toISOString().split('T')[0];
+        }
+        
+        // 格式化日期显示
+        function formatDate(dateStr) {
+            const d = new Date(dateStr);
+            const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+            return `${dateStr} ${weekdays[d.getDay()]}`;
+        }
+        
+        // 加载指定日期的新闻
+        async function loadNews(date) {
+            const container = document.getElementById('news-list');
+            container.innerHTML = '<div class="empty"><div class="icon">⏳</div><p>加载中...</p></div>';
+            
             try {
-                const today = new Date().toISOString().split('T')[0];
-                const response = await fetch(`news/${today}.json`);
+                const response = await fetch(`news/${date}.json`);
                 if (response.ok) {
                     const data = await response.json();
+                    currentDate = date;
                     renderNews(data);
+                } else {
+                    container.innerHTML = `
+                        <div class="empty error">
+                            <div class="icon">📭</div>
+                            <p>${date} 暂无新闻</p>
+                            <p style="margin-top:10px; font-size:0.9em;">该日期的新闻尚未收集</p>
+                        </div>
+                    `;
+                    document.getElementById('date').textContent = formatDate(date);
                 }
             } catch (e) {
-                console.log('今日新闻尚未生成');
+                console.error('加载失败:', e);
+                container.innerHTML = `
+                    <div class="empty error">
+                        <div class="icon">⚠️</div>
+                        <p>加载失败</p>
+                        <p style="margin-top:10px; font-size:0.9em;">${e.message}</p>
+                    </div>
+                `;
             }
         }
         
+        // 渲染新闻
         function renderNews(data) {
-            document.getElementById('date').textContent = data.date;
+            document.getElementById('date').textContent = formatDate(data.date);
             const container = document.getElementById('news-list');
             container.innerHTML = '';
+            
+            if (!data.news || data.news.length === 0) {
+                container.innerHTML = '<div class="empty"><div class="icon">📭</div><p>暂无新闻</p></div>';
+                return;
+            }
             
             data.news.forEach((item, i) => {
                 const div = document.createElement('div');
                 div.className = 'news-item';
                 div.innerHTML = `
-                    <div class="stars">${'⭐'.repeat(item.stars)}</div>
+                    <div class="stars">${'⭐'.repeat(item.stars || 3)}</div>
                     <h3>${item.title}</h3>
                     <p>${item.summary}</p>
                     <a href="${item.url}" target="_blank">🔗 ${item.source}</a>
@@ -117,12 +181,34 @@
             
             document.getElementById('meta').innerHTML = `
                 📊 本次共收集 ${data.news.length} 条新闻 | 
-                搜索 ${data.searchCount} 次 | 
-                更新时间：${data.updateTime}
+                搜索 ${data.searchCount || 0} 次 | 
+                更新时间：${data.updateTime || '未知'}
             `;
         }
         
-        loadNews();
+        // 加载今日新闻
+        function loadToday() {
+            loadNews(getLocalDate());
+        }
+        
+        // 加载前一天
+        function loadPrevDay() {
+            if (!currentDate) currentDate = getLocalDate();
+            const d = new Date(currentDate);
+            d.setDate(d.getDate() - 1);
+            loadNews(d.toISOString().split('T')[0]);
+        }
+        
+        // 加载后一天
+        function loadNextDay() {
+            if (!currentDate) currentDate = getLocalDate();
+            const d = new Date(currentDate);
+            d.setDate(d.getDate() + 1);
+            loadNews(d.toISOString().split('T')[0]);
+        }
+        
+        // 页面加载时自动加载今日新闻
+        loadToday();
     </script>
 </body>
 </html>
