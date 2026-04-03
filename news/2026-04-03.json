@@ -1,0 +1,98 @@
+{
+  "date": "2026-04-03",
+  "news": [
+    {
+      "title": "界面新闻：优必选全球招募首席科学家，年薪最高可达1.24亿元",
+      "summary": "华为PC季度增速再次反超联想；商务部回应Meta收购Manus及企业跨国经营问题；优必选全球招募首席科学家，年薪最高可达1.24亿元，显示人形机器人行业对顶尖人才的争夺进入白热化阶段。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：全球首证背后，中美脑机接口竞赛悄然提速",
+      "summary": "博睿康NEO获全球首款侵入式脑机接口注册证，上海集聚近60家企业。阶梯医疗完成5亿元战略融资，阿里腾讯首次在脑机接口领域下注。脑虎科技完成全球首例实时汉语言解码临床试验。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_02_812274.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：72.6%！中国芯片出口为何暴增",
+      "summary": "中国集成电路出口额同比暴涨72.6%，出口数量仅增长13.7%，平均单价上涨52%。中国半导体从搬运工转向供应商，在AI外围芯片、存储芯片、成熟制程三大领域完成全球替代。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_01_812171.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：AI顶会NeurIPS紧急道歉，但更大的问题才刚刚开始",
+      "summary": "NeurIPS 2026征稿规则新增OFAC制裁名单作为准入门槛，引发学界强烈反弹。中国计算机学会建议暂停投稿审稿，中国科协不再受理相关资助申请。清华大学在NeurIPS 2025论文录用数量位居全球第一。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_31_811985.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：华为筹谋已久的全面出击",
+      "summary": "华为在欧洲统一专利法院和巴西同时起诉迪士尼和Meta，涉案技术为HEVC/H.265视频编码标准。华为在HEVC标准制定过程中提交大量核心技术提案，掌握视频产业咽喉。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_30_811844.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "玛莎·金贝尔：为什么AI至今仍未引发就业末日？",
+      "summary": "耶鲁大学预算实验室研究发现，自ChatGPT问世以来尚无证据表明就业模式发生显著变化。约18%企业表示使用AI，职业分布变化速度并未比2022年之前更快。需要构建数据系统追踪AI对劳动力市场的影响。",
+      "url": "https://www.guancha.cn/MarthaGimbel/2026_04_01_812174.shtml",
+      "source": "观察者网/自然期刊",
+      "stars": 5
+    },
+    {
+      "title": "顾嘉时：完整权限交给AI，OpenClaw用户知道自己正在冒什么险吗？",
+      "summary": "OpenClaw GitHub星标已达32.8万，成为史上最高开源项目。国家互联网应急中心发布安全预警。高权限带来高效能，但也隐藏个人权限失控、产业合规风险以及数据主权隐忧。",
+      "url": "https://www.guancha.cn/gujiashi/2026_03_27_811613.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "博鳌论坛2026：具身机器人何时能迎来ChatGPT时刻？",
+      "summary": "北京人形机器人创新中心CEO熊友军、商汤联合创始人王晓刚等专家探讨具身智能发展。OpenClaw为人形机器人赋予自我进化能力，实现从单机具身智能到群体协同转变。数据采集从真机操控转向人体穿戴传感器捕捉人类行为。",
+      "url": "https://www.guancha.cn/xiongyoujun/2026_03_27_811581.shtml",
+      "source": "观察者网/博鳌论坛",
+      "stars": 5
+    },
+    {
+      "title": "量子位：机器人产业链竞争转向系统能力综合比拼",
+      "summary": "机器人产业链的竞争，正在从单点技术能力转向系统能力、工程能力和交付能力的综合比拼。具身智能发展需要解决模型泛化性、数据采集等核心挑战。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "第一财经：利率、AI与地缘冲突三重夹击，贵金属进入高波动时代",
+      "summary": "在美联储政策反复、地缘冲突加剧与全球通胀结构性上升的背景下，贵金属价格高波动源于宏观政策、储备体系重构与市场资金结构变化的多重交织，传统避险逻辑已失效。",
+      "url": "https://www.yicai.com",
+      "source": "第一财经",
+      "stars": 4
+    },
+    {
+      "title": "arXiv 今日新增 188 篇 AI 论文，研究热度持续高涨",
+      "summary": "arXiv 人工智能分类今日新增 188 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学、软件工程等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。AI Agent 要真正有用，需要能够处理相互依赖的任务。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    },
+    {
+      "title": "脑机接口产业：政策驱动下的中国加速度",
+      "summary": "2026年政府工作报告将脑机接口与量子科技、具身智能、6G并列，明确为国家重点培育的未来产业。上海率先发布脑机接口行动方案，全国首个脑机接口未来产业集聚区落地。2025年上海脑机接口领域融资额占全国53.7%。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_02_812274.shtml",
+      "source": "观察者网",
+      "stars": 5
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-04-03T10:05:00+08:00"
+}
