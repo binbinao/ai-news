@@ -1,0 +1,112 @@
+{
+  "date": "2026-04-08",
+  "news": [
+    {
+      "title": "曹和平：被大模型抢走工作？数字资产将给你"第二份工资"",
+      "summary": "北京大学经济学院教授曹和平提出颠覆性判断：大模型是"生产过程垄断"的公共品，政府补偿生产端，收益本该全民共享。被AI替代的岗位可通过个人数字资产账户获得超额补偿。建议建立国家级"数字资产账户管理办公室"，推动数字M0、M1发行。",
+      "url": "https://www.guancha.cn/CaoHePing/2026_04_07_812781.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：群核科技与"杭州六小龙"的命运分野",
+      "summary": "群核科技通过港交所上市聆讯，将成为"全球空间智能第一股"。DeepSeek估值1.05万亿元全球第四大独角兽。宇树科技科创板IPO申请获受理，拟募资42.02亿元，将成为A股"人形机器人第一股"。游戏科学《黑神话：悟空》四个月流水超90亿元。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_05_812600.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：全球首证背后，中美脑机接口竞赛悄然提速",
+      "summary": "博睿康NEO获全球首款侵入式脑机接口注册证，上海集聚近60家企业。阶梯医疗完成5亿元战略融资，阿里腾讯首次在脑机接口领域下注。脑虎科技完成全球首例实时汉语言解码临床试验。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_02_812274.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：72.6%！中国芯片出口为何暴增",
+      "summary": "中国集成电路出口额同比暴涨72.6%，出口数量仅增长13.7%，平均单价上涨52%。中国半导体从搬运工转向供应商，在AI外围芯片、存储芯片、成熟制程三大领域完成全球替代。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_01_812171.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "拉斐尔·莱夫：美国正在输掉与中国的创新竞赛",
+      "summary": "MIT前校长发文指出，中国在电动汽车、电池、人形机器人等先进技术制造和应用上已远超美国。中国基础研究经费十年增长近四倍，2025年自然指数全球十大研究机构中中国占据九席。美国政策正在削弱自身创新优势。",
+      "url": "https://www.guancha.cn/RafaelReif/2026_04_07_812738.shtml",
+      "source": "观察者网/外交事务",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：AI顶会NeurIPS紧急道歉，但更大的问题才刚刚开始",
+      "summary": "NeurIPS 2026征稿规则新增OFAC制裁名单作为准入门槛，引发学界强烈反弹。中国计算机学会建议暂停投稿审稿，中国科协不再受理相关资助申请。清华大学在NeurIPS 2025论文录用数量位居全球第一。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_31_811985.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：华为筹谋已久的全面出击",
+      "summary": "华为在欧洲统一专利法院和巴西同时起诉迪士尼和Meta，涉案技术为HEVC/H.265视频编码标准。华为在HEVC标准制定过程中提交大量核心技术提案，掌握视频产业咽喉。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_30_811844.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "玛莎·金贝尔：为什么AI至今仍未引发就业末日？",
+      "summary": "耶鲁大学预算实验室研究发现，自ChatGPT问世以来尚无证据表明就业模式发生显著变化。约18%企业表示使用AI，职业分布变化速度并未比2022年之前更快。需要构建数据系统追踪AI对劳动力市场的影响。",
+      "url": "https://www.guancha.cn/MarthaGimbel/2026_04_01_812174.shtml",
+      "source": "观察者网/自然期刊",
+      "stars": 5
+    },
+    {
+      "title": "顾嘉时：完整权限交给AI，OpenClaw用户知道自己正在冒什么险吗？",
+      "summary": "OpenClaw GitHub星标已达32.8万，成为史上最高开源项目。国家互联网应急中心发布安全预警。高权限带来高效能，但也隐藏个人权限失控、产业合规风险以及数据主权隐忧。",
+      "url": "https://www.guancha.cn/gujiashi/2026_03_27_811613.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "博鳌论坛2026：具身机器人何时能迎来ChatGPT时刻？",
+      "summary": "北京人形机器人创新中心CEO熊友军、商汤联合创始人王晓刚等专家探讨具身智能发展。OpenClaw为人形机器人赋予自我进化能力，实现从单机具身智能到群体协同转变。数据采集从真机操控转向人体穿戴传感器捕捉人类行为。",
+      "url": "https://www.guancha.cn/xiongyoujun/2026_03_27_811581.shtml",
+      "source": "观察者网/博鳌论坛",
+      "stars": 5
+    },
+    {
+      "title": "界面新闻：芯片荒致苹果Mac mini和Studio发货周期大幅拉长",
+      "summary": "芯片荒致苹果Mac mini和Studio发货周期大幅拉长；TCL华星完成对创科光电战略并购；三星否认采购20台ASML EUV光刻机。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 4
+    },
+    {
+      "title": "第一财经：聚焦赛道，培育生态——创业投资基金的生存逻辑",
+      "summary": "中国创业投资行业正经历由资金过剩与优质项目稀缺共同驱动的结构性洗牌，基金管理者必须从追逐风口转向聚焦赛道、培育生态，通过深耕细分领域、长期陪伴企业与构建产业协同网络，实现从财务投资人向产业合伙人的战略转型。",
+      "url": "https://www.yicai.com",
+      "source": "第一财经",
+      "stars": 4
+    },
+    {
+      "title": "量子位：修图师正在从"操作者"变成"管理者"",
+      "summary": "修图师正在从"操作者"变成"管理者"，从"技术执行者"变成"创意决策者"。AI正在重塑创意产业的工作流程。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "arXiv 今日新增 220 篇 AI 论文，研究热度持续高涨",
+      "summary": "arXiv 人工智能分类今日新增 220 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学、软件工程等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "微软研究：AI Agent 在知识工作环境中的挑战",
+      "summary": "微软研究院持续探讨 AI Agent 如何在复杂知识工作环境中发挥作用，需要处理多任务并行、信息依赖等挑战。AI Agent 要真正有用，需要能够处理相互依赖的任务。",
+      "url": "https://www.microsoft.com/en-us/research/blog",
+      "source": "Microsoft Research",
+      "stars": 3
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-04-08T10:05:00+08:00"
+}
