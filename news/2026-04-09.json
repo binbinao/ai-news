@@ -1,0 +1,112 @@
+{
+  "date": "2026-04-09",
+  "news": [
+    {
+      "title": "李少红独家对话：AI重塑了影视剧组，却重塑不了创意",
+      "summary": "导演李少红谈AI时代影视创作：体力劳动变成脑力劳动，摄制组岗位大幅缩减。AI可能超过胶片到数字的转变，成为影视工业最大技术变革。但人的判断力和审美稀缺性依然存在，'取代'这俩字就是制造恐慌。",
+      "url": "https://www.guancha.cn/lishaohong/2026_04_08_812906.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：重庆与浙江——张雪一句话点出中国智造的双轮驱动",
+      "summary": "张雪机车WSBK夺冠引发'捧浙踩渝'争议。重庆产业链整合与浙江资本赋能，构成中国智造两个轮子。重庆'智造七龙珠'与杭州'六小龙'遥相呼应，两种模式互补而非互斥。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_08_812909.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：中国赛车驶入黄金时代",
+      "summary": "张雪机车820RR-RS在WSBK葡萄牙站双回合夺冠，打破杜卡迪、雅马哈、川崎等国际豪强垄断。搭载100%自主研发819cc直列三缸发动机，季华实验室TiAl合金气门等国产供应链托举世界冠军。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_09_812990.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "曹和平：被大模型抢走工作？数字资产将给你"第二份工资"",
+      "summary": "北大教授曹和平提出颠覆性判断：大模型是'生产过程垄断'的公共品，政府补偿生产端，收益本该全民共享。建议建立国家级'数字资产账户管理办公室'，推动数字M0、M1发行。",
+      "url": "https://www.guancha.cn/CaoHePing/2026_04_07_812781.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：群核科技与"杭州六小龙"的命运分野",
+      "summary": "群核科技通过港交所上市聆讯，将成为'全球空间智能第一股'。DeepSeek估值1.05万亿元全球第四大独角兽。宇树科技科创板IPO申请获受理，拟募资42.02亿元，将成为A股'人形机器人第一股'。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_05_812600.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：全球首证背后，中美脑机接口竞赛悄然提速",
+      "summary": "博睿康NEO获全球首款侵入式脑机接口注册证，上海集聚近60家企业。阶梯医疗完成5亿元战略融资，阿里腾讯首次在脑机接口领域下注。脑虎科技完成全球首例实时汉语言解码临床试验。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_02_812274.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：72.6%！中国芯片出口为何暴增",
+      "summary": "中国集成电路出口额同比暴涨72.6%，出口数量仅增长13.7%，平均单价上涨52%。中国半导体从搬运工转向供应商，在AI外围芯片、存储芯片、成熟制程三大领域完成全球替代。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_01_812171.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "拉斐尔·莱夫：美国正在输掉与中国的创新竞赛",
+      "summary": "MIT前校长发文指出，中国在电动汽车、电池、人形机器人等先进技术制造和应用上已远超美国。中国基础研究经费十年增长近四倍，2025年自然指数全球十大研究机构中中国占据九席。",
+      "url": "https://www.guancha.cn/RafaelReif/2026_04_07_812738.shtml",
+      "source": "观察者网/外交事务",
+      "stars": 5
+    },
+    {
+      "title": "心智观察所：AI顶会NeurIPS紧急道歉，但更大的问题才刚刚开始",
+      "summary": "NeurIPS 2026征稿规则新增OFAC制裁名单作为准入门槛，引发学界强烈反弹。中国计算机学会建议暂停投稿审稿，中国科协不再受理相关资助申请。清华大学在NeurIPS 2025论文录用数量位居全球第一。",
+      "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_03_31_811985.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "顾嘉时：完整权限交给AI，OpenClaw用户知道自己正在冒什么险吗？",
+      "summary": "OpenClaw GitHub星标已达32.8万，成为史上最高开源项目。国家互联网应急中心发布安全预警。高权限带来高效能，但也隐藏个人权限失控、产业合规风险以及数据主权隐忧。",
+      "url": "https://www.guancha.cn/gujiashi/2026_03_27_811613.shtml",
+      "source": "观察者网",
+      "stars": 5
+    },
+    {
+      "title": "界面新闻：华为何刚暗示AI眼镜新品将至",
+      "summary": "淘宝天猫调整发货管理规范；GoPro将全球裁员23%以削减成本；TikTok在芬兰建第二座数据中心；华为何刚暗示AI眼镜新品将至。",
+      "url": "https://www.jiemian.com",
+      "source": "界面新闻",
+      "stars": 4
+    },
+    {
+      "title": "第一财经：地缘惊雷暂歇，A股面临反弹还是反转？",
+      "summary": "特朗普临时暂停对伊朗的军事行动引发全球风险偏好反弹，A股短期迎来情绪修复窗口，但行情持续性取决于谈判进展与量能配合。",
+      "url": "https://www.yicai.com",
+      "source": "第一财经",
+      "stars": 4
+    },
+    {
+      "title": "量子位：修图师正在从"操作者"变成"管理者"",
+      "summary": "修图师正在从"操作者"变成"管理者"，从"技术执行者"变成"创意决策者"。AI正在重塑创意产业的工作流程。",
+      "url": "https://www.qbitai.com",
+      "source": "量子位",
+      "stars": 4
+    },
+    {
+      "title": "arXiv 今日新增 223 篇 AI 论文，研究热度持续高涨",
+      "summary": "arXiv 人工智能分类今日新增 223 篇论文，涵盖机器学习、计算机视觉、自然语言处理、机器人学、软件工程等多个领域，显示 AI 研究热度持续高涨。",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "source": "arXiv",
+      "stars": 4
+    },
+    {
+      "title": "Anthropic 研究：语言模型为何表现出"情绪"行为",
+      "summary": "Anthropic 可解释性团队最新研究：所有现代语言模型有时会表现得像有情绪一样。这些行为背后的原因是什么？团队正在调查。",
+      "url": "https://www.anthropic.com/research",
+      "source": "Anthropic",
+      "stars": 4
+    }
+  ],
+  "searchCount": 10,
+  "updateTime": "2026-04-09T10:05:00+08:00"
+}
