@@ -108,10 +108,13 @@
         let currentDate = null;
         
         function getLocalDate() {
+            // 使用中国时区获取日期
             const now = new Date();
-            const cstOffset = 8 * 60 * 60 * 1000;
-            const cstTime = new Date(now.getTime() + cstOffset);
-            return cstTime.toISOString().split('T')[0];
+            const chinaTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
+            const year = chinaTime.getFullYear();
+            const month = String(chinaTime.getMonth() + 1).padStart(2, '0');
+            const day = String(chinaTime.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
         }
         
         function formatDate(dateStr) {
