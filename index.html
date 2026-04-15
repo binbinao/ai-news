@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 新闻每日速递</title>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -128,7 +131,7 @@
             container.innerHTML = '<div class="empty"><div class="icon">⏳</div><p>加载中...</p></div>';
             
             try {
-                const response = await fetch('news/' + date + '.json');
+                const response = await fetch('news/' + date + '.json?t=' + Date.now());
                 if (response.ok) {
                     const data = await response.json();
                     currentDate = date;
