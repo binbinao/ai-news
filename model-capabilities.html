@@ -534,7 +534,7 @@
                         <td class="cell-yes">✅ 强</td>
                         <td>MIT</td>
                         <td>0.5/2</td>
-                        <td style="text-align:left;font-size:0.85em;color:#aaa;">开源 MoE 参数最大(1.6T)，1M ctx，推理/编码强悍，价格极低</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">开源 MoE 参数最大 (1.6T)，1M ctx，推理/编码强悍，价格极低</td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -624,7 +624,7 @@
                         <td class="cell-yes">✅ 双模式</td>
                         <td>Apache 2.0</td>
                         <td>免费～低</td>
-                        <td style="text-align:left;font-size:0.85em;color:#aaa;">双模式(thinking/chat)，尺寸覆盖极广，从 0.6B 到 235B</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">双模式 (thinking/chat)，尺寸覆盖极广，从 0.6B 到 235B</td>
                     </tr>
                     <tr>
                         <td>10</td>
@@ -653,6 +653,67 @@
             • 多模态/GUI Agent → <strong>Qwen3.6-Plus / Qwen3-VL</strong>（原生视觉，GUI 三端覆盖）<br>
             • Agent Swarm 并行 → <strong>Kimi K2.5</strong>（100 子 agent 调度）<br>
             • 本地部署轻量 → <strong>Qwen3-VL 7B / Ministral 3.5 14B</strong>
+        </div>
+    </div>
+
+    <!-- ==================== Hermes 开源模型推荐 ==================== -->
+    <div class="section">
+        <div class="section-title" style="border-bottom-color: rgba(0,212,255,0.3);">
+            🤖 Hermes 场景开源模型推荐 <span class="tag new">2026.07.29</span>
+        </div>
+
+        <div class="note" style="border-left-color: #00d4ff; background: rgba(0,212,255,0.04);">
+            💡 针对 Hermes Agent 多 profile 架构（dispatcher/developer/researcher/communicator 等）的开源模型选型建议。
+            当前 Hermes 默认使用 <strong>DeepSeek V4 Flash</strong>，已是性价比极高的选择。
+        </div>
+
+        <div class="guide-grid">
+            <div class="guide-card" style="border-left: 4px solid #00ff88;">
+                <h3>🥇 综合最佳：Kimi K3</h3>
+                <p><strong>功能覆盖</strong>：视觉✅ + 函数调用✅ + Agentic✅ + 1M 上下文✅ + 推理前沿✅<br>
+                <strong>定价</strong>：预计 $2-5/M（对标 Claude Opus 4.8）<br>
+                <strong>协议</strong>：MIT，可自部署<br>
+                <strong>适合 Hermes</strong>：dispatcher/developer/researcher 全 profile 覆盖，原生视觉 +agentic+ 函数调用全都有，1M ctx 做长文档/代码库理解优势明显</p>
+            </div>
+            <div class="guide-card" style="border-left: 4px solid #ffc800;">
+                <h3>🥈 性价比之王：DeepSeek V3.2</h3>
+                <p><strong>功能覆盖</strong>：函数调用✅ + 推理强✅ + 联网搜索✅ + 128K 上下文<br>
+                <strong>定价</strong>：$0.05/$0.2 —— 极其便宜<br>
+                <strong>协议</strong>：MIT<br>
+                <strong>适合 Hermes</strong>：已在用 DeepSeek 生态，切 V3.2 零成本，价格便宜 10 倍，函数调用更稳，agent 调度/工具调用/编码完全够用</p>
+            </div>
+            <div class="guide-card" style="border-left: 4px solid #00d4ff;">
+                <h3>🥉 多模态完备：Qwen3.6-Plus</h3>
+                <p><strong>功能覆盖</strong>：视觉✅ + 函数调用✅ + GUI Agent✅ + 代码执行✅ + 256K 上下文<br>
+                <strong>定价</strong>：~$0.3-0.5/M 或自部署免费<br>
+                <strong>协议</strong>：Apache 2.0<br>
+                <strong>适合 Hermes</strong>：原生多模态，GUI Agent 能力（桌面/移动/Web）是开源最优解，中文生态最完整，researcher/news profile 读图/PDF 图表分析专用</p>
+            </div>
+        </div>
+
+        <div class="table-wrap" style="margin-top:16px;">
+            <table>
+                <thead>
+                    <tr><th>维度</th><th>DeepSeek V4 Flash<br><span style="font-weight:normal;font-size:0.85em;color:#888;">（当前 Hermes）</span></th><th>Kimi K3</th><th>DeepSeek V3.2</th><th>Qwen3.6-Plus</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>函数调用质量</td><td class="cell-yes">✅</td><td class="cell-yes">✅ 更优</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td></tr>
+                    <tr><td>视觉理解</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅</td></tr>
+                    <tr><td>编码能力</td><td class="cell-yes">✅ 强</td><td class="cell-yes">✅ 前沿</td><td class="cell-yes">✅ reasoning-first</td><td class="cell-yes">✅</td></tr>
+                    <tr><td>上下文</td><td>1M</td><td>1M</td><td>128K</td><td>256K</td></tr>
+                    <tr><td>价格 $/M</td><td>0.44/1.74</td><td>预计 2-5</td><td style="color:#00ff88;font-weight:bold;">0.05/0.2</td><td>~0.3-0.5</td></tr>
+                    <tr><td>Agent/工具调用</td><td class="cell-yes">✅</td><td class="cell-yes">✅ Agentic</td><td class="cell-yes">✅ 专为 agent</td><td class="cell-yes">✅ GUI Agent</td></tr>
+                    <tr><td>Hermes 配置难度</td><td class="cell-yes">✅ 已有</td><td class="cell-partial">🟡 需加 OpenRouter</td><td class="cell-yes">✅ 已有</td><td class="cell-partial">🟡 需加阿里云/OpenRouter</td></tr>
+                    <tr><td>本地部署可能</td><td class="cell-yes">✅ 可量化</td><td class="cell-no">❌ 太大 (2.8T)</td><td class="cell-yes">✅ 可量化</td><td class="cell-yes">✅ 17B active 可跑</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="note" style="margin-top:12px;">
+            📌 <strong>行动建议</strong>：<br>
+            • <strong>短期</strong>：加 DeepSeek V3.2 作为 text-only 主力，替换 V4 Flash——价格便宜 10 倍，函数调用更稳<br>
+            • <strong>中期</strong>：加 Qwen3.6-Plus 或 Qwen3-VL 作为视觉/多模态路由（OpenRouter 一行配置）<br>
+            • <strong>长期</strong>：Kimi K3 API 价格稳定后，作为主力推理模型
         </div>
     </div>
 
