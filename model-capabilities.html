@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 模型能力一览表 | 2026.07</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #0f0f1a 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+            padding: 24px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 6px;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 8px;
+            font-size: 1em;
+        }
+        .update-badge {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .update-badge span {
+            display: inline-block;
+            background: rgba(0,212,255,0.15);
+            border: 1px solid rgba(0,212,255,0.3);
+            border-radius: 20px;
+            padding: 4px 16px;
+            font-size: 0.85em;
+            color: #00d4ff;
+        }
+
+        /* Legend */
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-bottom: 32px;
+            padding: 16px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+        .legend-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .legend-icon.yes { background: rgba(0,255,136,0.15); color: #00ff88; }
+        .legend-icon.partial { background: rgba(255,200,0,0.15); color: #ffc800; }
+        .legend-icon.no { background: rgba(255,80,80,0.15); color: #ff5050; }
+        .legend-icon.na { background: rgba(255,255,255,0.05); color: #555; }
+
+        /* Section */
+        .section {
+            margin-bottom: 36px;
+        }
+        .section-title {
+            font-size: 1.3em;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid rgba(0,212,255,0.2);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section-title .tag {
+            font-size: 0.55em;
+            background: rgba(0,212,255,0.15);
+            color: #00d4ff;
+            padding: 2px 10px;
+            border-radius: 10px;
+            font-weight: normal;
+        }
+        .section-title .tag.new {
+            background: rgba(0,255,136,0.15);
+            color: #00ff88;
+        }
+
+        .note {
+            background: rgba(0,212,255,0.06);
+            border-left: 3px solid #00d4ff;
+            padding: 10px 16px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 14px;
+            font-size: 0.9em;
+            color: #bbb;
+            line-height: 1.6;
+        }
+        .note.warn {
+            border-left-color: #ffc800;
+            background: rgba(255,200,0,0.06);
+        }
+        .note.danger {
+            border-left-color: #ff5050;
+            background: rgba(255,80,80,0.06);
+        }
+        .note strong { color: #fff; }
+
+        /* Table */
+        .table-wrap {
+            overflow-x: auto;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.06);
+            background: rgba(255,255,255,0.02);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.82em;
+            min-width: 900px;
+        }
+        thead th {
+            background: rgba(0,212,255,0.08);
+            color: #00d4ff;
+            padding: 10px 8px;
+            text-align: center;
+            font-weight: 600;
+            border-bottom: 2px solid rgba(0,212,255,0.15);
+            white-space: nowrap;
+            position: sticky;
+            top: 0;
+        }
+        thead th:first-child {
+            text-align: left;
+            padding-left: 14px;
+            min-width: 160px;
+        }
+        tbody td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            white-space: nowrap;
+        }
+        tbody td:first-child {
+            text-align: left;
+            font-weight: 600;
+            color: #fff;
+            padding-left: 14px;
+        }
+        tbody tr:hover {
+            background: rgba(0,212,255,0.04);
+        }
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .cell-yes { color: #00ff88; }
+        .cell-partial { color: #ffc800; }
+        .cell-no { color: #ff5050; }
+        .cell-na { color: #444; }
+
+        /* Quick Guide */
+        .guide-section {
+            margin-bottom: 36px;
+        }
+        .guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 14px;
+        }
+        .guide-card {
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 18px;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+        .guide-card h3 {
+            color: #00d4ff;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        .guide-card p {
+            color: #ccc;
+            font-size: 0.88em;
+            line-height: 1.7;
+        }
+        .guide-card .tier {
+            color: #ffc800;
+        }
+
+        /* July timeline */
+        .timeline {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .timeline-item {
+            flex: 1;
+            min-width: 150px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 10px;
+            padding: 12px 14px;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+        .timeline-item .date {
+            font-size: 0.75em;
+            color: #00d4ff;
+        }
+        .timeline-item .model-name {
+            font-size: 0.95em;
+            color: #fff;
+            font-weight: 600;
+            margin: 4px 0;
+        }
+        .timeline-item .vendor {
+            font-size: 0.8em;
+            color: #888;
+        }
+        .timeline-item .blurb {
+            font-size: 0.8em;
+            color: #aaa;
+            margin-top: 4px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            color: #555;
+            font-size: 0.8em;
+            padding: 24px 0 8px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
+
+        /* Responsive tweaks */
+        @media (max-width: 768px) {
+            body { padding: 12px; }
+            h1 { font-size: 1.5em; }
+            .guide-grid { grid-template-columns: 1fr; }
+            .timeline-item { min-width: 120px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>🧠 AI 模型能力一览表</h1>
+    <p class="subtitle">覆盖文字理解 · 图片理解 · 图片生成 · Computer Use · 函数调用 · 上下文 · 推理等核心能力</p>
+    <div class="update-badge"><span>📅 更新至 2026.07.29 · 9 大系列 40+ 模型</span></div>
+
+    <!-- Legend -->
+    <div class="legend">
+        <span class="legend-item"><span class="legend-icon yes">✓</span> 原生/官方支持</span>
+        <span class="legend-item"><span class="legend-icon partial">◐</span> 实验性/有限/特定版本</span>
+        <span class="legend-item"><span class="legend-icon no">✗</span> 不支持</span>
+        <span class="legend-item"><span class="legend-icon na">—</span> 无此能力（文本模型）</span>
+    </div>
+
+    <!-- ==================== OPENAI ==================== -->
+    <div class="section">
+        <div class="section-title">
+            OpenAI — GPT-5.6 家族 <span class="tag new">2026.07.09 GA</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th>
+                        <th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th>
+                        <th>上下文</th><th>推理</th><th>定价 $/M</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>GPT-5.6 Sol</td><td class="cell-yes">✅</td><td class="cell-yes">✅ 原生</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ CUA 最强</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-yes">✅ 旗舰</td><td>5/30</td></tr>
+                    <tr><td>GPT-5.6 Terra</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ CUA</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-yes">✅ 均衡</td><td>2/10</td></tr>
+                    <tr><td>GPT-5.6 Luna</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ CUA</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-yes">✅ 快速</td><td>0.5/2</td></tr>
+                    <tr><td>GPT-5.5</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ CUA</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>256K</td><td class="cell-yes">✅</td><td>待确认</td></tr>
+                    <tr><td>GPT-5 (2025.08)</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ CUA</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>256K</td><td class="cell-yes">✅</td><td>10/40</td></tr>
+                    <tr><td>o3 / o3-mini</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>200K</td><td class="cell-yes">✅ 最强推理</td><td>10/40</td></tr>
+                    <tr><td>o1</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>200K</td><td class="cell-yes">✅</td><td>待确认</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">💡 GPT-5.6 三档（Sol/Terra/Luna）共享同一代架构，Sol 是旗舰，Luna 是速度优化版。Sol 的 CUA 能力在独立评测中仅次于 Claude。</div>
+    </div>
+
+    <!-- ==================== CLAUDE ==================== -->
+    <div class="section">
+        <div class="section-title">
+            Anthropic Claude <span class="tag new">2026.07.24 更新</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th><th>上下文</th><th>推理</th><th>定价 $/M</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Claude Fable 5</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅ 最强 agent</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>1M</td><td class="cell-yes">✅ 最前沿</td><td>10/50</td></tr>
+                    <tr><td>Claude Opus 5 🆕</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅ 强</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>1M</td><td class="cell-yes">✅ 近Fable</td><td>5/25</td></tr>
+                    <tr><td>Claude Sonnet 5</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>1M</td><td class="cell-yes">✅</td><td>2/10</td></tr>
+                    <tr><td>Claude Opus 4.8</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>1M</td><td class="cell-yes">✅</td><td>5/25</td></tr>
+                    <tr><td>Claude Sonnet 4.6</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>200K</td><td class="cell-yes">✅</td><td>2/10</td></tr>
+                    <tr><td>Claude Haiku 4.5</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>200K</td><td class="cell-partial">🟡</td><td>1/5</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">💡 <strong>Computer Use 最成熟</strong>：Claude 首创（2024.10），Opus 5 / Fable 5 的 agent 能力在 SWE-Bench 和 TerminalBench 上领先。弱项：无图片生成、无音频输入、无联网搜索。</div>
+    </div>
+
+    <!-- ==================== GEMINI ==================== -->
+    <div class="section">
+        <div class="section-title">
+            Google Gemini <span class="tag new">2026.07.21 更新</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th><th>上下文</th><th>推理</th><th>定价 $/M</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Gemini 3.6 Flash 🆕</td><td class="cell-yes">✅</td><td class="cell-yes">✅ Imagen</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ Mariner</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-yes">✅ 编码/agent强</td><td>0.15/0.6</td></tr>
+                    <tr><td>Gemini 3.1 Pro</td><td class="cell-yes">✅</td><td class="cell-yes">✅ Imagen</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ Mariner</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>2M</td><td class="cell-yes">✅ 旗舰</td><td>1.25/5</td></tr>
+                    <tr><td>Gemini 2.5 Pro</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅ Mariner</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>2M</td><td class="cell-yes">✅</td><td>1.25/5</td></tr>
+                    <tr><td>Gemini 2.0 Flash</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-partial">🟡</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-partial">🟡</td><td>0.1/0.4</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">⚡ <strong>3.6 Flash 是黑马</strong>：2026.07.21 发布，编码/agent 全面超越 3.1 Pro，价格低 58%，速度快 2x。<br>💡 Gemini 强项：<strong>原生多模态全栈</strong>（文字+图片+视频+音频同一模型）、<strong>超长上下文</strong>（2M）、<strong>Project Mariner</strong> 浏览器级 Computer Use。</div>
+    </div>
+
+    <!-- ==================== DEEPSEEK ==================== -->
+    <div class="section">
+        <div class="section-title">
+            DeepSeek <span class="tag">2026.04.24</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th><th>上下文</th><th>推理</th><th>定价 $/M</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>DeepSeek V4 Pro</td><td class="cell-partial">🟡 即将推出</td><td class="cell-na">❌~</td><td class="cell-na">❌~</td><td class="cell-na">❌~</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-yes">✅ 强</td><td>0.5/2</td></tr>
+                    <tr><td>DeepSeek V4 Flash</td><td class="cell-no">❌</td><td class="cell-na">❌~</td><td class="cell-na">❌~</td><td class="cell-na">❌~</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-yes">✅</td><td>0.44/1.74</td></tr>
+                    <tr><td>DeepSeek V3.2</td><td class="cell-no">❌</td><td class="cell-na">~</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>128K</td><td class="cell-yes">✅ reasoning-first</td><td>0.05/0.2</td></tr>
+                    <tr><td>DeepSeek-R1</td><td class="cell-no">❌</td><td class="cell-na">~</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>128K</td><td class="cell-yes">✅ 开源最强推理</td><td>0.14/0.55</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">💡 DeepSeek V4 目前仍是<strong>纯文本</strong>，多模态版本已在路测。V4 Pro (1.6T) 是开源 MoE 参数规模最大的模型之一。</div>
+    </div>
+
+    <!-- ==================== LLAMA 4 ==================== -->
+    <div class="section">
+        <div class="section-title">
+            Meta Llama 4 <span class="tag">开源</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th><th>上下文</th><th>推理</th><th>参数</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Llama 4 Maverick</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-partial">🟡 不可与vision同用</td><td class="cell-no">❌</td><td>1M</td><td class="cell-partial">🟡</td><td>400B MoE</td></tr>
+                    <tr><td>Llama 4 Scout</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅ 帧分析</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-partial">🟡 同上</td><td class="cell-no">❌</td><td>10M</td><td class="cell-partial">🟡</td><td>109B MoE</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note danger">⚠️ <strong>Llama 4 硬伤</strong>：vision + function calling 不能同时用（同一 prompt 二选一），且无 Computer Use 支持。</div>
+    </div>
+
+    <!-- ==================== MISTRAL ==================== -->
+    <div class="section">
+        <div class="section-title">Mistral AI</div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th><th>上下文</th><th>定价 $/M</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Pixtral Large</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>128K</td><td>0.5/1.5</td></tr>
+                    <tr><td>Ministral 3.5 14B</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>256K</td><td>0.05/0.15</td></tr>
+                    <tr><td>Mistral Large</td><td class="cell-no">❌</td><td class="cell-na">~</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td>128K</td><td>2/6</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ==================== QWEN ==================== -->
+    <div class="section">
+        <div class="section-title">
+            Qwen（阿里）<span class="tag">开源</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>上下文</th><th>推理</th><th>参数</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Qwen3.6-Plus 🆕</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅ GUI Agent</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>256K</td><td class="cell-yes">✅</td><td>397B MoE</td></tr>
+                    <tr><td>Qwen3.5</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>256K</td><td class="cell-yes">✅</td><td>397B MoE</td></tr>
+                    <tr><td>Qwen3-VL</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅ 长视频</td><td class="cell-no">❌</td><td class="cell-yes">✅ 桌面/移动/Web GUI</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>256K</td><td class="cell-yes">✅</td><td>2B-235B</td></tr>
+                    <tr><td>Qwen3 (text)</td><td class="cell-no">❌</td><td class="cell-na">~</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>128K</td><td class="cell-yes">✅ 双模式</td><td>0.6B-235B</td></tr>
+                    <tr><td>Qwen2.5-VL</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-partial">🟡 自建</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td>128K</td><td class="cell-partial">🟡</td><td>7B-72B</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">💡 Qwen3-VL 的 <strong>GUI Agent</strong> 能力覆盖桌面/移动/Web，是开源领域最接近 Computer Use 的方案。Qwen3.6-Plus 是 2026.04 最新。</div>
+    </div>
+
+    <!-- ==================== GROK ==================== -->
+    <div class="section">
+        <div class="section-title">
+            xAI Grok <span class="tag new">2026.07.08</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th><th>上下文</th><th>推理</th><th>定价 $/M</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Grok 4.5 🆕</td><td class="cell-yes">✅</td><td class="cell-yes">✅ Aurora</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅ X实时</td><td>500K</td><td class="cell-yes">✅ 编码强</td><td>2/6</td></tr>
+                    <tr><td>Grok 4</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅ X实时</td><td>256K</td><td class="cell-yes">✅</td><td>待确认</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">💡 Grok 差异化：<strong>X/Twitter 实时数据</strong>独家接入、Aurora 生图。Grok 4.5 2026.07.08 发布，价格仅 Opus 5 一半。</div>
+    </div>
+
+    <!-- ==================== KIMI ==================== -->
+    <div class="section">
+        <div class="section-title">
+            Kimi（Moonshot AI）<span class="tag new">开源 · 2026.07.16</span>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>模型</th><th>图片输入</th><th>图片生成</th><th>视频理解</th><th>音频输入</th><th>Computer Use</th><th>代码执行</th><th>函数调用</th><th>联网搜索</th><th>上下文</th><th>推理</th><th>参数</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Kimi K3 🆕</td><td class="cell-yes">✅ 原生视觉</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅ Agentic</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>1M</td><td class="cell-yes">✅ 前沿</td><td>2.8T MoE</td></tr>
+                    <tr><td>Kimi K2.5</td><td class="cell-yes">✅</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅ Agent Swarm</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>128K</td><td class="cell-yes">✅</td><td>1T MoE</td></tr>
+                    <tr><td>Kimi K2</td><td class="cell-no">❌</td><td class="cell-na">~</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-no">❌</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td class="cell-yes">✅</td><td>128K</td><td class="cell-partial">🟡</td><td>1T MoE</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note">💡 Kimi K3（2026.07.16）是近期最重磅的<strong>开源模型</strong>之一：2.8T 参数、1M 上下文、原生视觉、open-weight。K2.5 的 <strong>Agent Swarm</strong> 可调度 100 个子 agent 并行。</div>
+    </div>
+
+    <!-- ==================== 中国开源模型排行榜 ==================== -->
+    <div class="section">
+        <div class="section-title" style="border-bottom-color: rgba(0,255,136,0.3);">
+            🇨🇳 中国开源模型排行榜 <span class="tag new">2026.07</span>
+        </div>
+
+        <div class="note" style="border-left-color: #00ff88; background: rgba(0,255,136,0.04);">
+            📊 截至 2026年7月，开源大模型格局已发生历史性变化——Artificial Analysis 开源智能指数前 6 名全部为中国模型。中国力量主导，MoE 架构一统江湖。以下按综合能力排序。
+        </div>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width:32px">#</th><th>模型</th><th>厂商</th><th>发布时间</th><th>架构</th><th>上下文</th>
+                        <th>图片输入</th><th>Computer Use</th><th>函数调用</th><th>综合推理</th>
+                        <th>开源协议</th><th>API 定价 $/M</th><th>核心亮点</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: rgba(0,255,136,0.04);">
+                        <td style="color:#00ff88;font-weight:bold;font-size:1.1em;">🥇</td>
+                        <td style="color:#00ff88;font-weight:bold;">Kimi K3</td>
+                        <td>Moonshot AI</td>
+                        <td>2026.07.16</td>
+                        <td>2.8T MoE (104B active)</td>
+                        <td>1M</td>
+                        <td class="cell-yes">✅ 原生视觉</td>
+                        <td class="cell-yes">✅ Agentic</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 前沿</td>
+                        <td>MIT</td>
+                        <td>待确认</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">开源最强，2.8T 参数，原生视觉+agentic，1M ctx，登顶多项代码榜单</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#ffc800;font-weight:bold;font-size:1.1em;">🥈</td>
+                        <td style="font-weight:bold;">GLM-5.2</td>
+                        <td>智谱 AI (Z.ai)</td>
+                        <td>2026.07</td>
+                        <td>753B</td>
+                        <td>128K</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ Agentic</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 强</td>
+                        <td>开源</td>
+                        <td>待确认</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">AA 开源智能指数 51 分（前三），Coding LoRA 可超 Kimi K3</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#cd7f32;font-weight:bold;font-size:1.1em;">🥉</td>
+                        <td style="font-weight:bold;">DeepSeek V4 Pro</td>
+                        <td>DeepSeek</td>
+                        <td>2026.04.24</td>
+                        <td>1.6T MoE (49B active)</td>
+                        <td>1M</td>
+                        <td class="cell-partial">🟡 即将推出</td>
+                        <td class="cell-no">❌</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 强</td>
+                        <td>MIT</td>
+                        <td>0.5/2</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">开源 MoE 参数最大(1.6T)，1M ctx，推理/编码强悍，价格极低</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><strong>Qwen3.6-Plus</strong></td>
+                        <td>阿里 (Alibaba)</td>
+                        <td>2026.04</td>
+                        <td>397B MoE (17B active)</td>
+                        <td>256K</td>
+                        <td class="cell-yes">✅ 原生多模态</td>
+                        <td class="cell-yes">✅ GUI Agent</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 强</td>
+                        <td>Apache 2.0</td>
+                        <td>待确认</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">开源多模态最强，原生视觉+GUI Agent，中文生态最完整</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><strong>Qwen3-VL</strong></td>
+                        <td>阿里 (Alibaba)</td>
+                        <td>2025.11</td>
+                        <td>2B-235B</td>
+                        <td>256K</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 桌面/移动/Web</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅</td>
+                        <td>Apache 2.0</td>
+                        <td>免费～低</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">开源 vision-language 标杆，GUI Agent 覆盖三端，多种尺寸可选</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><strong>MiniMax M2.7</strong></td>
+                        <td>MiniMax</td>
+                        <td>2026.03</td>
+                        <td>230B MoE</td>
+                        <td>256K</td>
+                        <td class="cell-no">❌ 纯文本</td>
+                        <td class="cell-yes">✅ Agent</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 编码强</td>
+                        <td>开源</td>
+                        <td>待确认</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">可自我改写代码，Agent 工作流能力强，但纯文本无视觉</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><strong>Kimi K2.5</strong></td>
+                        <td>Moonshot AI</td>
+                        <td>2026.01</td>
+                        <td>1T MoE</td>
+                        <td>128K</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ Agent Swarm</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅</td>
+                        <td>MIT</td>
+                        <td>待确认</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">Agent Swarm 可调度 100 子 agent，视觉+agent 一体化</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><strong>DeepSeek V3.2</strong></td>
+                        <td>DeepSeek</td>
+                        <td>2026</td>
+                        <td>671B MoE (37B active)</td>
+                        <td>128K</td>
+                        <td class="cell-no">❌ 纯文本</td>
+                        <td class="cell-no">❌</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ reasoning-first</td>
+                        <td>MIT</td>
+                        <td>0.05/0.2</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">推理优先，专为 agent 构建，价格极低，生态成熟</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><strong>Qwen3 (text)</strong></td>
+                        <td>阿里 (Alibaba)</td>
+                        <td>2025.05</td>
+                        <td>0.6B-235B</td>
+                        <td>128K</td>
+                        <td class="cell-na">❌~</td>
+                        <td class="cell-no">❌</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 双模式</td>
+                        <td>Apache 2.0</td>
+                        <td>免费～低</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">双模式(thinking/chat)，尺寸覆盖极广，从 0.6B 到 235B</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><strong>DeepSeek-R1</strong></td>
+                        <td>DeepSeek</td>
+                        <td>2025.01</td>
+                        <td>671B MoE (37B active)</td>
+                        <td>128K</td>
+                        <td class="cell-no">❌ 纯文本</td>
+                        <td class="cell-no">❌</td>
+                        <td class="cell-yes">✅</td>
+                        <td class="cell-yes">✅ 经典推理</td>
+                        <td>MIT</td>
+                        <td>0.14/0.55</td>
+                        <td style="text-align:left;font-size:0.85em;color:#aaa;">开源推理模型的里程碑，生态最广，社区最活跃</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="note" style="margin-top:12px;border-left-color:#00ff88;background:rgba(0,255,136,0.04);">
+            📌 <strong>选型建议</strong>：<br>
+            • 综合最强 → <strong>Kimi K3</strong>（2.8T，开源智力天花板，原生视觉+agentic）<br>
+            • 编码/agent 性价比 → <strong>GLM-5.2</strong>（AA 51 分，Coding LoRA 可超 K3）<br>
+            • 纯文本推理/低成本 → <strong>DeepSeek V4 Pro</strong>（1.6T，$0.5/M，1M ctx）<br>
+            • 多模态/GUI Agent → <strong>Qwen3.6-Plus / Qwen3-VL</strong>（原生视觉，GUI 三端覆盖）<br>
+            • Agent Swarm 并行 → <strong>Kimi K2.5</strong>（100 子 agent 调度）<br>
+            • 本地部署轻量 → <strong>Qwen3-VL 7B / Ministral 3.5 14B</strong>
+        </div>
+    </div>
+
+    <!-- ==================== 快速选型 ==================== -->
+    <div class="section">
+        <div class="section-title">⚡ 快速选型指南</div>
+        <div class="guide-grid">
+            <div class="guide-card">
+                <h3>🖥️ 需要 Computer Use</h3>
+                <p><span class="tier">🥇</span> Claude Fable 5 / Opus 5 → GPT-5.6 Sol → Gemini 3.6 Flash / 3.1 Pro<br>
+                <span class="tier">开源</span> Qwen3-VL / Qwen3.6-Plus (GUI Agent) → Kimi K3</p>
+            </div>
+            <div class="guide-card">
+                <h3>🖼️ 图片理解 + 函数调用</h3>
+                <p><span class="tier">🥇</span> Claude 全线 → GPT-5.6 全线 → Gemini 3.x → Pixtral Large → Qwen3-VL<br>
+                <span class="tier">⚠️</span> Llama 4 的 vision + function calling 不能同时用</p>
+            </div>
+            <div class="guide-card">
+                <h3>🎨 需要原生图片生成</h3>
+                <p>GPT-5.6 系列（原生文生图）→ Gemini 3.x（Imagen）→ Grok 4.5（Aurora）</p>
+            </div>
+            <div class="guide-card">
+                <h3>📏 超长上下文（>200K）</h3>
+                <p>Llama 4 Scout 10M → Gemini 3.1 Pro 2M → Claude Fable 5 / Opus 5 1M<br>→ GPT-5.6 1M → Kimi K3 1M → DeepSeek V4 1M</p>
+            </div>
+            <div class="guide-card">
+                <h3>🔓 开源可自部署</h3>
+                <p><span class="tier">🥇</span> Kimi K3（2.8T，最前沿）→ Qwen3-VL / Qwen3.6-Plus → DeepSeek V4 Pro<br>
+                多模态：Qwen3-VL → Llama 4 Maverick → Pixtral Large<br>
+                轻量：Phi-4-multimodal → Ministral 3.5</p>
+            </div>
+            <div class="guide-card">
+                <h3>🧠 最强推理</h3>
+                <p><span class="tier">闭源</span> Claude Fable 5 → GPT-5.6 Sol → Gemini 3.1 Pro → Grok 4.5<br>
+                <span class="tier">开源</span> Kimi K3 → GLM-5.2 → DeepSeek V4 Pro → Qwen3-235B</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 7月发布汇总 ==================== -->
+    <div class="section">
+        <div class="section-title">📅 2026 年 7 月新发布汇总</div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="date">07.24</div>
+                <div class="model-name">Claude Opus 5</div>
+                <div class="vendor">Anthropic</div>
+                <div class="blurb">Fable 5 级性能，半价</div>
+            </div>
+            <div class="timeline-item">
+                <div class="date">07.21</div>
+                <div class="model-name">Gemini 3.6 Flash</div>
+                <div class="vendor">Google</div>
+                <div class="blurb">编码/agent 超 3.1 Pro，便宜 58%</div>
+            </div>
+            <div class="timeline-item">
+                <div class="date">07.16</div>
+                <div class="model-name">Kimi K3</div>
+                <div class="vendor">Moonshot</div>
+                <div class="blurb">2.8T 开源，1M ctx，原生视觉</div>
+            </div>
+            <div class="timeline-item">
+                <div class="date">07.09</div>
+                <div class="model-name">GPT-5.6 Sol/Terra/Luna</div>
+                <div class="vendor">OpenAI</div>
+                <div class="blurb">三档，1M ctx，CUA 增强</div>
+            </div>
+            <div class="timeline-item">
+                <div class="date">07.08</div>
+                <div class="model-name">Grok 4.5</div>
+                <div class="vendor">xAI</div>
+                <div class="blurb">编码/agent 旗舰，$2/$6</div>
+            </div>
+            <div class="timeline-item">
+                <div class="date">06.30</div>
+                <div class="model-name">Claude Sonnet 5</div>
+                <div class="vendor">Anthropic</div>
+                <div class="blurb">最佳性价比，1M ctx</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>由 Hermes AI 生成 · 数据来源：各厂商官方文档、Artificial Analysis、LMSYS、OpenRouter 等公开信息</p>
+        <p style="margin-top:4px;"><a href="https://github.com/binbinao/ai-news">GitHub</a> · 数据如有偏差欢迎指正</p>
+    </div>
+
+</div>
+</body>
+</html>
