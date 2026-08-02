@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-02",
+  "news": [
+    {
+      "title": "OpenAI 公布下一代模型家族 Astra，内部版本解决 10 个长期未解数学难题",
+      "summary": "OpenAI 于 8 月 1 日正式命名下一代模型家族为「Astra」，专为长周期多智能体协作任务设计。其内部版本成功解决了 10 个长期悬而未决的数学和理论计算机科学开放问题，涵盖几何、密码学和复杂性理论等领域。OpenAI 已在 GitHub 上发布 Lean 4 形式化证明（openai/ten-proofs）供外界验证。Astra 此前已于 7 月 29 日向美国参议员闭门演示，被业界视为 GPT-6 的前身或一个独立模型系列。",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source": "OpenAI",
+      "stars": 5
+    },
+    {
+      "title": "OpenAI 发布「Building Abundant Intelligence」全栈战略",
+      "summary": "OpenAI 于 7 月 31 日发布战略文件，提出「Building Abundant Intelligence」全栈方法，从模型能力、计算成本、产品可用性三个维度推动 AI 的广泛普及。该战略标志着 OpenAI 从单纯追求前沿能力转向同时关注成本效率，与 GPT-5.6 系列的降价策略一脉相承。",
+      "url": "https://openai.com/index/building-abundant-intelligence/",
+      "source": "OpenAI",
+      "stars": 4
+    },
+    {
+      "title": "DeepSeek-V4-Flash-0731 正式发布公开 Beta，Agent 能力大幅提升",
+      "summary": "DeepSeek 于 7 月 31 日将 V4-Flash 从预览版升级为正式公开 Beta（build 0731），采用 284B 总参数/13B 激活的 MoE 架构，MIT 开源协议。新版本在 Agent 基准测试中大幅超越此前 V4-Pro-Preview，多项测评得分达到 Claude Opus 4.8 的 78%-98%，成为当前性价比最高的开源 Agent 模型之一。",
+      "url": "https://api-docs.deepseek.com/news/news260424/",
+      "source": "DeepSeek",
+      "stars": 4
+    },
+    {
+      "title": "欧盟 AI 法案第 50 条透明度义务今日正式生效",
+      "summary": "8 月 2 日起，欧盟 AI 法案第 50 条透明度义务全面执行。所有在欧盟运营的聊天机器人必须明确告知用户正在与 AI 交互，深度伪造和 AI 生成内容必须标注来源。该义务适用于所有 AI 系统（无论风险等级），是欧盟 AI 监管从立法走向执法的关键节点。",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+      "source": "European Commission",
+      "stars": 4
+    },
+    {
+      "title": "韩国计划向主权财富基金注资约 140 亿美元用于 AI 投资",
+      "summary": "韩国政府宣布计划向其主权财富基金注入超过 20 万亿韩元（约 140 亿美元），用于战略投资 AI、数据中心和基础设施。该消息发布于韩国科技股大幅反弹之际，此前 KOSPI 指数因 AI 泡沫担忧出现暴跌。韩国正加速追赶中美 AI 基建竞赛。",
+      "url": "https://www.techmeme.com/260731/p24",
+      "source": "Techmeme / Bloomberg",
+      "stars": 4
+    },
+    {
+      "title": "法院驳回 xAI 请求，明尼苏达州「AI 脱衣」禁令如期生效",
+      "summary": "美国联邦法官驳回了 xAI 关于阻止明尼苏达州禁止 AI 生成裸体图像（「nudify」应用）的临时限制令请求。xAI 在禁令生效前仅 3 天（7 月 29 日）才提交申请，被法官认为「拖延过久」。该法律于 8 月 1 日正式生效，标志着美国各州加速 AI 内容监管立法。",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "source": "TechCrunch",
+      "stars": 3
+    },
+    {
+      "title": "Google Gemini Spark 集成 Chrome 浏览器，实现桌面端自主网页操作",
+      "summary": "Google 于 7 月 30 日宣布 Gemini Spark 新增 Chrome 浏览器自动浏览能力，可在桌面端使用用户本地的 Chrome 登录信息和密码执行网页操作，如预约看房、查找航班等。敏感操作（如支付）仍交回用户确认。同时 Gemini Spark 扩展至 160 多个国家的 Google AI Pro 订阅用户。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "source": "Google Blog",
+      "stars": 3
+    }
+  ],
+  "searchCount": 7,
+  "updateTime": "2026-08-02T12:00:00+08:00"
+}
