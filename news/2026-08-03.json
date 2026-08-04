@@ -9,6 +9,13 @@
       "stars": 5
     },
     {
+      "title": "阿里通义千问 Qwen 3.8-Max 正式发布，2.4 万亿参数旗舰模型",
+      "summary": "阿里巴巴于 8 月 3 日正式发布 Qwen 3.8-Max，采用 2.4 万亿参数 MoE 架构，在多个基准测试中超越近期发布的 Kimi K3（2.8 万亿参数）。该模型率先在 Qoder 平台上线，但未公开 SWE-bench 等关键编码评测分数引发争议。Bloomberg 报道称这是中国 AI 竞赛加速的最新信号，阿里正全力对标 Anthropic 等前沿模型。",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/alibaba-drops-another-china-ai-model-with-breakthrough-performance",
+      "source": "Bloomberg",
+      "stars": 5
+    },
+    {
       "title": "Grok 4.6 定于 8 月 7 日发布，xAI 加速模型迭代步伐",
       "summary": "Elon Musk 确认 xAI 的下一代模型 Grok 4.6 将于 8 月 7 日左右发布，采用 1.5 万亿参数架构，在监督微调和强化学习方面显著改进。更强大的 Grok 4.7（2.1 万亿参数）计划在数周后跟进。这是 AI 行业有史以来最快的旗舰模型迭代节奏之一，表明 xAI 正全力追赶 OpenAI 和 Anthropic。",
       "url": "https://www.tronweekly.com/elon-musk-eyes-august-7-launch-for-grok-4-6/",
@@ -30,27 +37,20 @@
       "stars": 4
     },
     {
+      "title": "AMD Instella-MoE-16B-A3B 完全开源，MI300X 上训练的轻量 MoE 模型",
+      "summary": "AMD 于 8 月 1 日发布 Instella-MoE-16B-A3B，完全开源 MoE 语言模型，总参数 16B 但每 token 仅激活 2.8B。该模型在 AMD Instinct MI300X 和 MI325X GPU 上从零训练，是 AMD 在 AI 模型领域最重大的开源贡献，为开发者提供了在 AMD 硬件上运行高效推理的新选择。",
+      "url": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/",
+      "source": "MarkTechPost",
+      "stars": 3
+    },
+    {
       "title": "华尔街日报警告：AI 数据中心投资或形成金融泡沫",
       "summary": "华尔街日报最新分析指出，AI 领域尤其是数据中心建设的大规模投资可能正在制造金融泡沫。报道称全球 AI 算力 Capex 已超 8300 亿美元，但需求端增长尚未跟上供给扩张速度，一旦泡沫破裂可能拖垮整个市场。该警告发表于韩国宣布向主权财富基金注资 140 亿美元用于 AI 投资之后，引发市场对 AI 投资过热的新一轮讨论。",
       "url": "https://sputniknews.cn/20260803/1072603564.html",
       "source": "Sputnik / WSJ",
       "stars": 3
-    },
-    {
-      "title": "Nvidia DLSS 4.5 发布第二代 Transformer，光线重建算力提升 35%",
-      "summary": "Nvidia 在 8 月推出 DLSS 4.5 Ray Reconstruction 更新，采用第二代 Transformer 架构，算力提升 35%，参数量增加 20%，同时保持性能开销不变。新版本在光照质量、图像伪影消除和画面稳定性方面均有显著提升，支持所有 RTX 系列显卡。",
-      "url": "https://aiweekly.co/alerts/nvidia-dlss-45-brings-35-more-compute-in-august",
-      "source": "AI Weekly",
-      "stars": 3
-    },
-    {
-      "title": "ACL 2026 八月投稿周期开启，NLP 领域论文投稿量激增",
-      "summary": "ACL Rolling Review 2026 年 8 月周期于 8 月 3 日开放投稿。随着 AI 大模型研究的爆发式增长，NLP 领域投稿量持续攀升，ARR 系统正面临前所未有的稿件处理压力。本届 ACL 2026 最佳论文奖已颁发，RLVR（带可验证奖励的强化学习）成为最热门研究方向。",
-      "url": "https://aiweekly.co/alerts/acl-rolling-review-opens-august-cycle-amid-nlp-submission-surge",
-      "source": "AI Weekly",
-      "stars": 2
     }
   ],
   "searchCount": 7,
-  "updateTime": "2026-08-03T12:00:00+08:00"
+  "updateTime": "2026-08-03T14:00:00+08:00"
 }
