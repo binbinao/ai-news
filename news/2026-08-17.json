@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-17",
+  "news": [
+    {
+      "title": "英伟达联合高盛等华尔街巨头启动 5000 亿美元 AI 基建融资计划，高盛成唯一贷款银行",
+      "summary": "英伟达联合 Apollo、贝莱德等六大金融巨头建立独立算力融资平台，目标筹集超 5000 亿美元第三方资本用于 AI 基础设施建设。高盛已确认为该计划唯一贷款银行，正接洽保险公司和资产管理机构。英伟达 CEO 黄仁勋表示公司可为高达 1250 亿美元的项目提供担保。此举旨在打造 AI 计算的资产支持市场，将融资竞争从 GPU 硬件升级为电力供给+数据中心交付+融资能力的综合实力比拼。",
+      "url": "https://www.yicai.com/video/103314838.html",
+      "source": "第一财经 / 财联社",
+      "stars": 5
+    },
+    {
+      "title": "OpenAI 推出 Ultrafast 模式：GPT-5.6 Sol 在 Cerebras 上实现 14 倍加速，峰值 750 tok/s",
+      "summary": "OpenAI 于 8 月 13 日开启 Ultrafast 模式有限预览，基于 Cerebras 晶圆级芯片运行 GPT-5.6 Sol，输出速度高达 750 tokens/秒，为标准版本的 14 倍。该模式首批通过 API 开放，定价尚未披露。此前 GPT-5.6 全家族（Sol/Terra/Luna）已于 7 月全面上线 ChatGPT、Codex 和 API。这标志着推理加速从软件优化进入硬件深度定制阶段。",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "source": "TechCrunch",
+      "stars": 5
+    },
+    {
+      "title": "Manus 与 Meta 完成反向收购拆分：中国发改委首次行使跨境追溯否决权，腾讯成新资方",
+      "summary": "中国发改委（NDRC）于 4 月否决 Meta 对 Manus 的 20 亿美元收购并命令拆分，8 月 11 日正式执行。Meta 被迫完全退出，Manus 恢复独立运营，2025 年 12 月 29 日（Meta 收购日）之后产生的用户数据将于 8 月 23-24 日删除。腾讯成为 Manus 新主要资方，Manus 联合创始人被禁止离境。此案建立了北京对跨境科技交易的事后追溯否决权先例。",
+      "url": "https://www.caixinglobal.com/2026-08-12/manus-cuts-ties-with-meta-as-tencent-emerges-as-top-backer-102473415.html",
+      "source": "财新 / Caixin Global",
+      "stars": 5
+    },
+    {
+      "title": "Google AI 领导层大重组：Demis Hassabis 转任 DeepMind 主席，Jeff Dean 离职创办新 AI 公司",
+      "summary": "Google 于 8 月 5 日宣布 AI 领导层重大改组：Demis Hassabis 卸任 Google DeepMind CEO，转任 DeepMind 主席兼 Alphabet 首席科学家（继续领导 Isomorphic Labs）；Koray Kavukcuoglu 接任 DeepMind 运营负责人。Google 元老、首席科学家 Jeff Dean 离开 Google 创办新 AI 公司。这是 Google 自 2024 年 DeepMind 与 Google Brain 合并以来最大规模的 AI 管理层变动。",
+      "url": "https://www.nytimes.com/2026/08/05/technology/google-ai-leadership.html",
+      "source": "NYT / Axios",
+      "stars": 4
+    },
+    {
+      "title": "Meta 发布 Muse Code AI 编程智能体，以极低定价挑战 OpenAI Codex 和 Anthropic Claude Code",
+      "summary": "Meta 于 8 月 5 日发布首款 AI 编程智能体 Muse Code（测试版），基于 Spark 1.2 模型，可处理大型代码仓库的工程任务——从规划到代码检查全流程。Muse Code 支持将大任务拆分为多个子智能体并行执行。定价采用双轨制：标准版和低价 "贡献者" 层级，直接对标 OpenAI Codex 和 Anthropic Claude Code 的定价体系。",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "source": "TechCrunch / CNBC",
+      "stars": 4
+    },
+    {
+      "title": "Palantir Q2 营收暴增 93% 达 19.35 亿美元，AI 主权需求驱动，上调全年指引至 82% 增长",
+      "summary": "Palantir 发布 Q2 2026 财报，营收同比增长 93% 至 19.35 亿美元，美国商业收入暴增 149%，运营利润率 62%，Rule of 40 得分高达 155%。公司上调全年收入指引至 81.5 亿美元（同比增长 82%）。CEO Alex Karp 将增长归因于 'AI 主权' 需求——各国政府和企业希望在前沿 AI 模型上运行自有基础设施。Palantir 6 月与英伟达合作推出 Sovereign AI 操作系统。",
+      "url": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+      "source": "CNBC",
+      "stars": 4
+    },
+    {
+      "title": "Anthropic 确认组建自研芯片团队，为 Claude 定制 AI 芯片，目标降推理成本 50%",
+      "summary": "Anthropic 于 8 月 5 日首次公开确认正在组建内部芯片团队，将为 Claude 系列模型定制设计 AI 芯片。公司采用 '协同设计' 策略，将硬件与模型架构同步优化，目标是将每 token 推理成本降低约 50%。Anthropic 表示将继续与 AWS、Google Cloud 等多芯片供应商合作，内部芯片将作为补充而非替代现有合作伙伴。",
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+      "source": "TechCrunch / Ars Technica",
+      "stars": 4
+    }
+  ],
+  "searchCount": 7,
+  "updateTime": "2026-08-17T08:00:00+08:00"
+}
