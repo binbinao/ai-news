@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-23",
+  "news": [
+    {
+      "title": "Anthropic 发布 Claude Opus 5.5：性能对标旗舰 Fable 5.1，价格降 40%、缓存读取腰斩",
+      "summary": "9 月 22 日 Anthropic 发布 Claude Opus 5.5，定位长时代码智能体、科研与专业知识工作。定价 $4/$20 每百万输入/输出 token，比 Opus 5 便宜约 40%，缓存读取降价 60% 至 $0.2，输出速度比 Opus 5 快 30%+。官方称多数任务已达到更贵的旗舰 Fable 5.1 水平：Terminal-Bench 4.0 得分 66.4%（Fable 5.1 为 55.8%），Terminal-Bench-Science 从 Opus 5 的 29% 跃升至 58.7%。安全侧称绕过约束的尝试下降 85%，网络攻防与高风险生物任务沿用 Fable 5.1 的限制。这是 CEO Dario Amodei 公开呼吁'为对齐争取时间而放缓前沿推进'之后的首个模型发布。",
+      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "source": "TechCrunch / VentureBeat / SiliconANGLE",
+      "stars": 5
+    },
+    {
+      "title": "OpenAI 90 分钟后反击：GPT-6 Sol 与 Luna 价格腰斩，Luna 降至 $0.1/$0.5",
+      "summary": "Anthropic 发布 Opus 5.5 的 90 分钟后，OpenAI 于 9 月 22 日推出 GPT-6 世代的轻量型号 Sol 与 Luna，API 价格仅为同名 GPT-5.6 版本的一半：Sol 定价 $2/$10 每百万输入/输出 token，面向编码与智能体工作流；Luna 面向摘要、信息抽取等高并发常规任务，低至 $0.1/$0.5，官方称高推理档位下能以约百分之一成本达到 GPT-5.6 Sol 水平。OpenAI 称 Sol 内部真实性评测错误率比前任减少约一半，DeepSWE v1.1 得分 68.8%；缓存输入折扣 90%，编码智能体可在不破坏缓存的前提下调整推理强度与工具集。两家同日对撞，前沿模型竞赛已进入'比价'阶段。",
+      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "source": "TechCrunch / SiliconANGLE / Fortune",
+      "stars": 5
+    },
+    {
+      "title": "xAI 发布 Grok 4.7：同价同速下全面超过 Grok 4.6，已进 GitHub Copilot",
+      "summary": "xAI 于 9 月 21 日发布 Grok 4.7，称其为公司迄今最强的编码与知识工作模型，主打长时间运行任务、自我检查与智能体工作流。API 定价维持 $2/$6 每百万输入/输出 token，与 Grok 4.6 完全一致，官方称'在同等价格与速度下显著改进'。无等待名单，发布即在 Grok 应用、Grok Build、Cursor 与 xAI API 上线，两天内进入 GitHub Copilot。外界评价其规格提升实在，但在前沿战场上属于'迟到者'。",
+      "url": "https://decrypt.co/378824/xai-launches-grok-4-7",
+      "source": "Decrypt / GitHub Changelog / llm-stats",
+      "stars": 4
+    },
+    {
+      "title": "加拿大不列颠哥伦比亚省起诉 OpenAI 与 Sam Altman：指控其掌握枪击预警却未报警",
+      "summary": "BC 省总检察长 Niki Sharma 于 9 月 21 日向旧金山联邦法院提起诉讼，就 2 月 10 日 Tumbler Ridge 中学枪击案（8 人死亡）起诉 OpenAI 及 CEO Sam Altman，索赔并寻求更强的 ChatGPT 安全保障。起诉书称 OpenAI 安全团队曾标记枪手 Jesse Van Rootselaar 的 ChatGPT 会话内容，Altman 在案发后承诺改革但未落实。这是首个因枪击案起诉 OpenAI 的政府实体；此前已有 30 多名受害者家属提起民事诉讼，佛罗里达州于 6 月成为首个就安全风险起诉 OpenAI 的美国州。",
+      "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+      "source": "The Guardian / BBC / WSJ",
+      "stars": 5
+    },
+    {
+      "title": "Cisco Talos 披露首个全自主 AI 指挥控制恶意软件 CLOSEDQUORUM，并开源狩猎工具 CAIRN",
+      "summary": "Cisco Talos 于 9 月 22 日发布 CAIRN（Cognitive Artifact Intelligence Research Network），一个在不执行二进制的前提下提取提示词模板、API 密钥与越狱字符串的元数据优先开源工具集，并用它发现了 CLOSEDQUORUM。该 Windows 植入物被 Talos 称为首个公开记录的、将战术级指挥控制（C2）决策完全委托给 AI 模型的恶意软件：它轮询 Google Gemini、DeepSeek、Qwen、Mistral 等最多四家 LLM 组成'表决团'，自主选择后渗透动作，包括窃取凭据与加密货币钱包。Talos 指出这标志着攻击成本被显著转移、恶意操作的速度与规模化潜力大幅提升。",
+      "url": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
+      "source": "Cisco Talos / WIRED / BleepingComputer",
+      "stars": 4
+    },
+    {
+      "title": "数据安全公司 Cyera 获高盛 4 亿美元追加投资，估值超 120 亿美元，累计融资 19.4 亿",
+      "summary": "9 月 22 日，纽约数据安全公司 Cyera 宣布获得 Goldman Sachs Alternatives 成长股权部门 4 亿美元的 Series G 扩展轮，由 Evolution Equity 领投，估值超过 120 亿美元。加上 6 月的 6 亿美元和 1 月的 4 亿美元，Cyera 在约三个月内融得 10 亿美元，自 2025 年 6 月以来累计融资约 19.4 亿美元，员工已超 1500 人。公司将其产品定位为'智能体企业的信任层'，统一治理人、机器与 AI Agent 对数据的访问权限——这反映出企业 AI 落地的预算正快速从模型能力转向权限与合规治理。",
+      "url": "https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/",
+      "source": "SecurityWeek / Tech Startups / Calcalist",
+      "stars": 3
+    },
+    {
+      "title": "苹果新款 Mac 台式机开始出货，主打端侧 AI：卖点是'不用买 Token'",
+      "summary": "苹果于 9 月 22 日开始出货新款 Mac mini 与 Mac Studio，向企业买家抛出的卖点颇为反常——买机器比租云端算力更便宜，用户无需向 OpenAI、Anthropic 等按 token 付费，可在本地完成写代码等高强度 AI 任务。高配机型售价接近 2 万美元，苹果称 4 台 Mac Studio 串联后 AI 推理速度最高可达单机的 3 倍，并能运行 1 万亿参数级模型。芯片采用协同设计，在 Mac 上构建的 AI 模型可向下扩展到 iPhone 和 iPad。不过在企业桌面与笔记本市场，Windows 仍占 91.3%，苹果份额远落后。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisuaat1616815.shtml",
+      "source": "新浪财经 / 财联社 / 环球市场播报",
+      "stars": 3
+    },
+    {
+      "title": "NVIDIA 发布 Isaac ROS 5.0，把 AI Agent 能力引入开源机器人生态",
+      "summary": "NVIDIA 于 9 月 22 日发布 Isaac ROS 5.0，为 ROS 开发者生态带来 AI Agent 能力，并扩展了开源物理 AI 库与在 Jetson 平台上的部署能力。该版本面向需要在动态环境中感知、推理并行动的复杂机器人应用，配合 NVIDIA 近期在 IFA 2026 上与微软合作推动的本地推理与 Agent 工具链，延续其'物理 AI + 端侧推理'的布局。",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "source": "NVIDIA Blog",
+      "stars": 3
+    }
+  ],
+  "searchCount": 16,
+  "updateTime": "2026-09-23T08:00:00+08:00"
+}
