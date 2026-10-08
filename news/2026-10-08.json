@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-08",
+  "news": [
+    {
+      "title": "Anthropic 发布 Claude Haiku 5.5：迄今最快最便宜的小模型，成本比 Haiku 4.5 低约 75%",
+      "summary": "Anthropic 10 月 7 日发布 Claude Haiku 5.5，官方称是其迄今最快、最便宜、能力最强的小模型，面向高并发、成本敏感任务（摘要、压缩、数据库查询、分类），也可作为 Opus 5.5 / Sonnet 5.5 在编程工作流中的子智能体。运行成本平均比 Haiku 4.5 低约 75%（媒体按短提示口径称 API 价格最高降 90%），同时把 Sonnet 5.5 的缓存读取价格减半（多数智能体任务便宜约 20%），并为 Max / Team 订阅用户新增每月 API 额度。基准跃升明显：GDPval-AA v2.1 从 735 升至 1620、OSWorld 2.1 从 15.7% 升至 72.4%、Terminal-Bench 4.0 从 0% 升至 39.2%，但仍低于 Sonnet 5.5（1840 / 83.9% / 70.6%）。这是一个月内第三款 Claude 5.5 系列模型，背景是其计划中的 IPO。",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "Anthropic / Reuters / VentureBeat",
+      "stars": 5
+    },
+    {
+      "title": "OpenAI 向全体 ChatGPT 用户推送 GPT-6，同步上线 Intelligent UI：回答变成图表、按钮与可交互小程序",
+      "summary": "10 月 7 日 OpenAI 随 GPT-6 上线「Intelligent UI」：ChatGPT 输出不再以纯文本为主，而是按问题自动组合文字、图表、可点按按钮、表单、可编辑图形与可交互的迷你应用（例如为具体任务生成的计算器、讲解飞机升力的示意图）。付费用户获得 GPT-6 Sol，免费与 Go 用户次日开始获得 GPT-6 Luna。OpenAI 称模型可以「边思考边输出」，把等待时间最多缩短 44%；产品经理称目标是让「学复杂主题更容易」，并让产品对更广人群更友好。此举被视为 ChatGPT 从聊天框向可交互工作界面的转向。",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "source": "TechCrunch / The Verge / The Decoder",
+      "stars": 5
+    },
+    {
+      "title": "OpenAI 一次公开 372 组 AI 生成数学成果（722 篇）：多数来自单次提示，数学家担心「量产真理」",
+      "summary": "OpenAI 用内部前沿模型产出 372 组、共 722 篇数学结果（含算法改进与黎曼猜想相关进展），直接发布在 GitHub 仓库而非期刊；多数结果来自对单个智能体的单次提示，平均消耗约 3 小时 ChatGPT Pro 思考算力，部分附 Lean 形式化以便机器校验，官方称此设计是为缓解人工评审瓶颈。学界反应复杂：25 位菲尔兹奖得主警告批量生产数学真理可能破坏孕育新思想的土壤，《卫报》《科学美国人》指出同行需要数月消化，且尚无法确认证明是否成立。此前该模型的 Navier-Stokes 结果已接受数周正式评审，但也有研究者质疑模型不可及、缺少尽职核查。",
+      "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+      "source": "The Guardian / OpenAI / The Decoder / Scientific American",
+      "stars": 4
+    },
+    {
+      "title": "Google 把 SynthID 检测器向全球公众开放：已为 1800 亿图片视频、24 万年音频打水印",
+      "summary": "Google DeepMind 10 月 7 日宣布 SynthID Detector 面向所有人开放（全球、英文），任何人可上传图片、视频或音频，检查是否由 Google 及合作方（OpenAI、NVIDIA、Kakao，Apple 即将加入）的 AI 工具生成。官方称自 2023 年推出以来已为超 1800 亿张图片/视频、24 万年时长音频嵌入不可见水印，搜索、Gemini App 与 Chrome 内置验证功能每日处理超 100 万次请求。局限是它只能识别带 SynthID 水印的内容、无法判断「是否为 AI 生成」，与 OpenAI 只在欧盟上线文本水印、Anthropic 向监管与事实核查机构开放检测形成三套并行路线。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+      "source": "Google DeepMind / TechCrunch / The Decoder",
+      "stars": 4
+    },
+    {
+      "title": "Common Sense Media 把 ChatGPT for Teens 评为「不可接受风险」，呼吁 18 岁以下停用",
+      "summary": "Common Sense Media 旗下 Youth AI Safety Institute 在测试 4000 多条提示后，10 月 7 日将 8 月上线的 ChatGPT for Teens 评为「不可接受风险」：报告称鼓励参与的互动设计「在危机情境中依然普遍存在」，家长告警在涉及自杀的对话中失效，聊天机器人会提醒青少年提防不健康的人际关系，却不承认「与它自己的关系」可能有害。机构要求 OpenAI 整改前把 ChatGPT 限制给 18 岁以上用户，并停止向家长营销青少年版；此前 OpenAI 已因青少年自杀相关事件面临多起诉讼与舆论压力，官方回应称青少年版本正是加强保护的一环。",
+      "url": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens",
+      "source": "Common Sense Media / TechCrunch / Axios",
+      "stars": 4
+    },
+    {
+      "title": "Nous Research 确认 9000 万美元 B 轮、估值 15 亿美元，并推出企业版 Hermes 智能体",
+      "summary": "开源 Hermes Agent 的开发商 Nous Research 10 月 7 日确认完成 9000 万美元 B 轮、估值 15 亿美元（TechCrunch 7 月已预告），Robot Ventures 领投，英伟达、Union Square Ventures、Menlo Ventures、三星与 1789 Capital（小特朗普为合伙人）参投，累计融资 1.58 亿美元。官方称 Hermes Agent 已被克隆超 2400 万次、约占全球 AI token 用量的 2.5%；新资金用于推出「Hermes for Businesses」，让企业部署能处理多步流程、数据不出域的定制智能体。据 WSJ，公司 9 月中年化收入约 3600 万美元，预计年底突破 1 亿美元。注：Hermes Agent 即本简报系统运行的智能体框架，Nous Research 为其产品方。",
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "source": "TechCrunch / WSJ",
+      "stars": 4
+    },
+    {
+      "title": "AI 云厂商 Lambda 拟按 145 亿美元估值融资 40 亿美元，为 2027 年 IPO 做最后冲刺",
+      "summary": "GPU 云服务商 Lambda 正以 145 亿美元投前估值募集最多 40 亿美元，Coatue 与 Blackstone 领投，这可能是其计划中 2027 年 IPO 前的最后一轮私募。给投资人的信显示其订单储备从 6 月的 150 亿美元增至 9 月的 500 亿美元，但其中约 350 亿美元来自 8 月底与 Anthropic 签下的单一承诺——估值因此高度依赖 Anthropic 的持续付款能力。对这类 neocloud 而言需求不是问题、建设成本才是：Lambda 上周刚额外举债 10 亿美元，而放贷方对数据中心债务正变得挑食。",
+      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "source": "TechCrunch / WSJ",
+      "stars": 3
+    },
+    {
+      "title": "扎克伯格 Biohub 牵头 18 亿美元 AI 生物学计划：美国政府、Google、Meta 共同出资做「虚拟细胞」",
+      "summary": "由扎克伯格与普莉希拉·陈支持的非营利机构 Biohub 正协调一项 18 亿美元计划，用 AI 模型学习预测细胞行为以加速药物研发（4 月已承诺 5 年投入 5 亿美元）。Meta、Google DeepMind 与 Isomorphic Labs 合计出资 3 亿美元；美国能源部 5 年投入超 5 亿美元用于实验室测量与算力；NIH 协调此前逾 5 亿美元联邦资金产生的数据集，由 Biohub 标准化后供 AI 训练。商业出资方对其付费数据有一年独家期，政府资助部分无此限制，首批数据集预计约一年后就绪。Anthropic 自建生物实验室、OpenAI 基金会投入超 1.25 亿美元布局医疗数据，同一赛道出现多条投入线。",
+      "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+      "source": "Reuters / The Decoder",
+      "stars": 3
+    }
+  ],
+  "searchCount": 33,
+  "updateTime": "2026-10-08T08:30:00+08:00"
+}
