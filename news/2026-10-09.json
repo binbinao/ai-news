@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-09",
+  "news": [
+    {
+      "title": "Google Cloud 发布通用型 Gemini agent：自带 Gmail、日历与 Drive 账号的企业智能体",
+      "summary": "10 月 8 日 Google Cloud 在 Gemini at Work 2026 上发布通用型 Gemini agent：可跨越数小时乃至数天持续执行任务、自行调度子智能体，并打通 Google Workspace、Microsoft 365 与 Slack。每个 agent 会获得独立的工作区账号（含 Gmail 地址、日历与 Drive 存储）；Google 称它还能按需路由到 Anthropic Claude 以及自有开源权重模型。此举把 Gemini 从聊天助手推向「可托付工作的同事」，直接对标 OpenAI 的 Dots 与 ChatGPT Work。",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "source": "TechCrunch / Reuters / Google Cloud",
+      "stars": 5
+    },
+    {
+      "title": "OpenAI 年化收入约 500 亿美元，比向投资人暗示的低约 200 亿，AI 概念股震荡",
+      "summary": "《金融时报》10 月 8 日援引提供给投资人的财务文件称，OpenAI 年化收入约 500 亿美元，比此前外界报道的约 700 亿美元低 200 亿；Axios 指出差额主要来自不同 AI 公司对「总收入」的会计口径差异。消息令 AI 概念股承压，也让外界重新审视由巨额算力承诺支撑的 AI 基建叙事。此前软银刚完成对 OpenAI 的百亿美元追加投资，公司正推进大规模数据中心建设。",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "source": "Financial Times / Axios / TechCrunch",
+      "stars": 5
+    },
+    {
+      "title": "Anthropic 发起 Cyber Mission：电网水务防护计划 + 免费开源软件扫描服务 OSS Scanner",
+      "summary": "10 月 8 日 Anthropic 启动长期计划 Cyber Mission，首期两块：关键基础设施防护计划（CIDP）向电网、水务、交通与政府系统的防御方提供前沿 Claude 模型、驻场工程师与威胁研究，创始伙伴包括 CrowdStrike、Palo Alto Networks、Accenture、Deloitte、PwC、Dragos、Rockwell Automation 等 11 家；以及面向开源项目的免费选择性加入扫描服务 OSS Scanner，Anthropic 称其真实漏洞检出率超 90%，并为已确认问题生成带修复建议的概念验证利用。",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source": "Anthropic / Axios / SiliconANGLE",
+      "stars": 4
+    },
+    {
+      "title": "Anthropic 上线 Claude Dashboards 与 Motion：自然语言建实时看板、生成动画讲解视频",
+      "summary": "10 月 8 日 Anthropic 为 Claude 推出两项 beta 功能：Dashboards 可连接 BigQuery、Snowflake、Databricks、Salesforce 等数据源，用自然语言生成随数据自动更新的实时看板，每个数字都能溯源到具体查询，并可导出到 Grafana、Hex、Sigma 等工具；Motion 不依赖视频模型，而是写代码把报告或图表变成可逐字编辑、可导出 MP4 的动画讲解，官方称无 AI 生成影像。同时 Docs、Slides、Design 结束 beta，向包括免费版在内的所有计划开放；Anthropic 称这三项工具已累计生成超 4500 万份文档。",
+      "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+      "source": "Anthropic / The Decoder / The New Stack",
+      "stars": 4
+    },
+    {
+      "title": "Manus 母公司融资超 5 亿美元，估值或达 40 亿美元，创中国 AI 应用单轮纪录",
+      "summary": "10 月 8 日 Manus 母公司 Butterfly Effect 宣布完成超 5 亿美元融资，由博裕资本与 IDG 资本联合领投，腾讯、HSG（原红杉中国）、真格基金等老股东跟投，公司未披露投后估值；彭博此前报道本轮估值约 40 亿美元，约为创始团队从 Meta 手中回购股份价格的两倍。这距中国发改委 4 月叫停 Meta 20 亿美元收购仅半年，显示投资人对 AI 智能体赛道并未退却。Manus 已推出基于自研 Cascade 执行系统的 Manus 2.0 与个人智能体应用 Cue，并有赴港上市传闻。",
+      "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+      "source": "TechCrunch / CNBC / Nikkei Asia",
+      "stars": 4
+    },
+    {
+      "title": "AI 辅助黑客攻破韩国多家金融机构，韩政府要求全面整改",
+      "summary": "CrowdStrike 10 月 7 日披露：一名疑似中国籍攻击者在 9 月底至 10 月初使用开源 AI 渗透测试工具 ARTEX（背后调用模型包括 DeepSeek v4.1-flash、GLM-5.3、Grok 4.6）攻破韩国至少 7 家金融机构，仅新韩银行就有逾 2.5 万条含姓名、联系方式、收入与信用额度的记录被窃。调查人员在攻击者公开目录中发现 Claude Code 会话日志。韩国国务总理韩成淑 10 月 6 日要求迅速采取措施，警告同类手法可能蔓延至政府与公共部门；专家指出 AI 正在把网络犯罪的技术门槛与成本大幅拉低。",
+      "url": "https://www.dw.com/en/south-korea-warns-of-ai-aided-hacking-after-bank-data-breaches/a-79592922",
+      "source": "DW / CrowdStrike / Semafor",
+      "stars": 4
+    },
+    {
+      "title": "StepFun 上线 Step 5 Preview：600B MoE、1M 上下文，10 月 15 日放出开放权重",
+      "summary": "阶跃星辰的 Step 5 Preview 于 10 月 8 日登陆 OpenRouter，采用稀疏 MoE 架构（总参数 600B、每 token 激活 27B），支持 1M token 上下文与视觉输入，定价为每百万输入 token 1 美元、输出 2.7 美元，另有 0.05 美元的缓存读取档。官方定位是面向长周期智能体任务的旗舰模型，并承诺 10 月 15 日以 BF16 格式开源权重。Artificial Analysis 给出的预览版智能指数为 44，待权重发布后复评。",
+      "url": "https://www.stepfun.com/step-5-preview",
+      "source": "StepFun / OpenRouter / Artificial Analysis",
+      "stars": 4
+    },
+    {
+      "title": "Anthropic 更新 2026 使用政策：「持续虐待 Claude」将被封号，11 月 12 日生效",
+      "summary": "Anthropic 10 月 8 日发布年度使用政策更新，首次把「对模型的持续且无必要的虐待或残忍行为」列为禁止项，11 月 12 日生效，主要执行手段仍是让 Claude 主动结束对话；官方强调常见的不满、反驳、黑暗创作题材不在其列。同一版更新新增「不得破坏民主进程」章节，明确禁止选举干预，并把武器开发软件、非自愿跟踪、大规模欺骗性宣传（如批量假账号、伪造新闻媒体）写成硬性条款，同时澄清了受支持地区政策。",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source": "Anthropic / TechCrunch / Quartz",
+      "stars": 3
+    }
+  ],
+  "searchCount": 24,
+  "updateTime": "2026-10-09T08:30:00+08:00"
+}
